@@ -1,0 +1,321 @@
+CRITICAL - 2024-06-14 04:11:45 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/testConMysql', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/testConMysql')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/testConMysql')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:14:15 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/testConMysql', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/testConMysql')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/testConMysql')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:14:52 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/testConMysql', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/testConMysql')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/testConMysql')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:15:13 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/testConMysql', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/testConMysql')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/testConMysql')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:16:17 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/testConfigVal', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/testConfigVal')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/testConfigVal')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:16:18 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:16:19 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/testConfigVal', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/testConfigVal')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/testConfigVal')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:16:20 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/testConfigVal', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/testConfigVal')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/testConfigVal')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:16:27 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/testConMysql', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/testConMysql')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/testConMysql')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:18:03 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/testConMysql', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/testConMysql')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/testConMysql')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:19:16 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/testConMysql', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/testConMysql')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/testConMysql')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:20:51 --> ParseError: syntax error, unexpected token "class", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 10.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/testConMysql', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/testConMysql')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/testConMysql')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:39:58 --> ErrorException: Undefined array key "user_data"
+in APPPATH\Views\users_info.php on line 4.
+ 1 APPPATH\Views\users_info.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_data"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('users_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:41:31 --> ErrorException: Undefined variable $data
+in APPPATH\Views\users_info.php on line 4.
+ 1 APPPATH\Views\users_info.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('users_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:41:35 --> ErrorException: Undefined variable $data
+in APPPATH\Views\users_info.php on line 4.
+ 1 APPPATH\Views\users_info.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('users_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:42:18 --> ErrorException: Undefined array key "user_data"
+in APPPATH\Views\users_info.php on line 4.
+ 1 APPPATH\Views\users_info.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_data"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 5 APPPATH\Controllers\Home.php(57): view('users_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:43:18 --> ErrorException: Undefined array key "user_data"
+in APPPATH\Views\users_info.php on line 4.
+ 1 APPPATH\Views\users_info.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_data"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('users_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:44:53 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Home.php on line 58.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:47:20 --> ErrorException: Undefined variable $rs
+in APPPATH\Controllers\Home.php on line 58.
+ 1 APPPATH\Controllers\Home.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rs', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 58)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:47:27 --> ErrorException: Undefined array key "user_data"
+in APPPATH\Views\users_info.php on line 4.
+ 1 APPPATH\Views\users_info.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_data"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('users_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:47:37 --> ErrorException: Undefined array key "user_data"
+in APPPATH\Views\users_info.php on line 4.
+ 1 APPPATH\Views\users_info.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_data"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('users_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:47:59 --> ParseError: syntax error, unexpected token ">"
+in APPPATH\Views\users_info.php on line 4.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 3 APPPATH\Controllers\Home.php(58): view('users_info', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:48:00 --> ParseError: syntax error, unexpected token ">"
+in APPPATH\Views\users_info.php on line 4.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 3 APPPATH\Controllers\Home.php(58): view('users_info', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:56:09 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Home.php on line 62.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/testConMysql', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/testConMysql')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/testConMysql')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:56:18 --> ErrorException: Undefined variable $data
+in APPPATH\Views\users_info.php on line 3.
+ 1 APPPATH\Views\users_info.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('users_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:56:31 --> ErrorException: Undefined variable $username
+in APPPATH\Views\users_info.php on line 3.
+ 1 APPPATH\Views\users_info.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 5 APPPATH\Controllers\Home.php(61): view('users_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:57:10 --> TypeError: view(): Argument #2 ($data) must be of type array, stdClass given, called in C:\xampp\htdocs\ci\app\Controllers\Home.php on line 61
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(61): view('users_info', Object(stdClass))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:57:59 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\Home.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:58:13 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\Home.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 04:58:15 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Controllers\Home.php on line 60.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 05:00:24 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Home.php on line 61.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/testConMysql', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/testConMysql')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/testConMysql')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 05:00:31 --> ErrorException: Undefined variable $data
+in APPPATH\Views\users_info.php on line 3.
+ 1 APPPATH\Views\users_info.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('users_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 05:00:44 --> ErrorException: Undefined variable $username
+in APPPATH\Views\users_info.php on line 3.
+ 1 APPPATH\Views\users_info.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 5 APPPATH\Controllers\Home.php(60): view('users_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 05:42:15 --> ErrorException: Undefined property: stdClass::$f_name
+in APPPATH\Views\users_info.php on line 49.
+ 1 APPPATH\Views\users_info.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$f_name', 'C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php', 49)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('users_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 06:06:56 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\users_info.php on line 56.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 4 APPPATH\Controllers\Home.php(58): view('users_info', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-14 06:06:56 --> [Caused by] ErrorException: Undefined variable $data
+in APPPATH\Views\users_info.php on line 56.
+ 1 APPPATH\Views\users_info.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php', 56)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\users_info.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('users_info', [], true)
+ 5 APPPATH\Controllers\Home.php(58): view('users_info', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->testConMysql()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()

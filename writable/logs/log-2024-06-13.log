@@ -1,0 +1,330 @@
+CRITICAL - 2024-06-13 05:09:12 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-06-13 05:13:58 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-06-13 05:13:58 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Helpers\number_helper.php(56): format_number(6, 2, NULL, Array)
+#1 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(152): number_to_size(6, 2)
+#2 C:\xampp\htdocs\ci\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\ci\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ci\system\Debug\Exceptions.php(157): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci\public\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-13 05:19:10 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-06-13 05:20:46 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-06-13 05:21:49 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-06-13 05:21:49 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Helpers\number_helper.php(56): format_number(6, 2, NULL, Array)
+#1 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(152): number_to_size(6, 2)
+#2 C:\xampp\htdocs\ci\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\ci\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ci\system\Debug\Exceptions.php(157): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci\public\index.php(72): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-13 05:22:32 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-06-13 05:22:32 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Helpers\number_helper.php(56): format_number(6, 2, NULL, Array)
+#1 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(152): number_to_size(6, 2)
+#2 C:\xampp\htdocs\ci\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\ci\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ci\system\Debug\Exceptions.php(157): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci\public\index.php(72): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-13 05:22:38 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-06-13 05:22:43 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-06-13 05:22:43 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Helpers\number_helper.php(56): format_number(6, 2, NULL, Array)
+#1 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(152): number_to_size(6, 2)
+#2 C:\xampp\htdocs\ci\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\ci\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ci\system\Debug\Exceptions.php(157): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci\public\index.php(72): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-13 05:30:40 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-06-13 05:30:40 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Helpers\number_helper.php(56): format_number(6, 2, NULL, Array)
+#1 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(152): number_to_size(6, 2)
+#2 C:\xampp\htdocs\ci\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\ci\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ci\system\Debug\Exceptions.php(157): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci\public\index.php(72): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-13 05:30:43 --> CodeIgniter\Exceptions\FrameworkException: The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 252.
+ 1 SYSTEMPATH\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(72): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2024-06-13 05:30:43 --> ErrorException: Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\ci\system\Helpers\number_helper.php:137
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Helpers\number_helper.php(56): format_number(6, 2, NULL, Array)
+#1 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(152): number_to_size(6, 2)
+#2 C:\xampp\htdocs\ci\app\Views\errors\html\error_exception.php(384): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(6291456)
+#3 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(258): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ci\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\ci\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\ci\system\Debug\Exceptions.php(157): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ci\system\CodeIgniter.php(252): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ci\system\CodeIgniter.php(214): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ci\public\index.php(72): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 137.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-06-13 03:35:11 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(288): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Home')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Home')
+ 4 SYSTEMPATH\CodeIgniter.php(899): class_exists('\\App\\Controllers\\Home', true)
+ 5 SYSTEMPATH\CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 03:35:18 --> TypeError: App\Controllers\Home::index(): Return value must be of type string, none returned
+in APPPATH\Controllers\Home.php on line 11.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 03:47:59 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::fans(), 1 passed in C:\xampp\htdocs\ci\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 18.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->fans('Bright')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 03:59:36 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::test_view(), 0 passed in C:\xampp\htdocs\ci\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->test_view()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 04:00:31 --> ArgumentCountError: Too few arguments to function App\Controllers\Home::test_view(), 0 passed in C:\xampp\htdocs\ci\system\CodeIgniter.php on line 941 and exactly 2 expected
+in APPPATH\Controllers\Home.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->test_view()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 04:08:02 --> ErrorException: Undefined array key "data1"
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data1"', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->test_view('bright', 'bright2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 04:08:16 --> ErrorException: Undefined array key "data1"
+in APPPATH\Controllers\Home.php on line 27.
+ 1 APPPATH\Controllers\Home.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "data1"', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 27)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->test_view('bright', 'bright2')
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 04:39:36 --> ParseError: syntax error, unexpected token "}", expecting "," or ";"
+in APPPATH\Controllers\Home.php on line 42.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/form', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/form')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/form')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 04:57:03 --> ErrorException: include_once(session_include.php): Failed to open stream: No such file or directory
+in APPPATH\Controllers\Home.php on line 5.
+ 1 APPPATH\Controllers\Home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(session_include.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 5)
+ 2 APPPATH\Controllers\Home.php(5): include_once()
+ 3 SYSTEMPATH\Router\AutoRouter.php(161): include_once('C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php')
+ 4 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/form_process', 'post')
+ 5 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/form_process')
+ 6 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/form_process')
+ 7 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 04:58:35 --> ErrorException: ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp\\htdocs\\ci\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp\\htdocs\\ci\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(686): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(982): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\CodeIgniter.php(1068): session()
+10 SYSTEMPATH\CodeIgniter.php(549): CodeIgniter\CodeIgniter->storePreviousURL(Object(CodeIgniter\HTTP\SiteURI))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 04:58:41 --> ErrorException: ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp\\htdocs\\ci\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp\\htdocs\\ci\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(686): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(982): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\CodeIgniter.php(1068): session()
+10 SYSTEMPATH\CodeIgniter.php(549): CodeIgniter\CodeIgniter->storePreviousURL(Object(CodeIgniter\HTTP\SiteURI))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 04:58:44 --> ErrorException: ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp\\htdocs\\ci\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp\\htdocs\\ci\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(686): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(982): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\CodeIgniter.php(1068): session()
+10 SYSTEMPATH\CodeIgniter.php(549): CodeIgniter\CodeIgniter->storePreviousURL(Object(CodeIgniter\HTTP\SiteURI))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 05:51:52 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Home.php on line 124.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/form_process', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/form_process')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/form_process')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 06:00:51 --> ParseError: syntax error, unexpected token "}", expecting ";"
+in APPPATH\Controllers\Home.php on line 126.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('home/form_process', 'post')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('home/form_process')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('home/form_process')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 06:23:20 --> ErrorException: session_destroy(): Trying to destroy uninitialized session
+in APPPATH\Controllers\Home.php on line 124.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy(): Trying to destroy uninitialized session', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 124)
+ 2 APPPATH\Controllers\Home.php(124): session_destroy()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->clear_session()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 06:23:47 --> ErrorException: session_destroy(): Trying to destroy uninitialized session
+in APPPATH\Controllers\Home.php on line 124.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy(): Trying to destroy uninitialized session', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Home.php', 124)
+ 2 APPPATH\Controllers\Home.php(124): session_destroy()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->clear_session()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-13 06:25:16 --> ErrorException: ini_set(): Session ini settings cannot be changed when a session is active
+in SYSTEMPATH\Session\Handlers\FileHandler.php on line 72.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'ini_set(): Session ini settings cannot be changed when a session is active', 'C:\\xampp\\htdocs\\ci\\system\\Session\\Handlers\\FileHandler.php', 72)
+ 2 SYSTEMPATH\Session\Handlers\FileHandler.php(72): ini_set('session.save_path', 'C:\\xampp\\htdocs\\ci\\writable\\session')
+ 3 SYSTEMPATH\Config\Services.php(686): CodeIgniter\Session\Handlers\FileHandler->__construct(Object(Config\Session), '::1')
+ 4 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 5 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 6 SYSTEMPATH\Config\Services.php(664): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 7 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 8 SYSTEMPATH\Common.php(982): CodeIgniter\Config\BaseService::__callStatic('session', [])
+ 9 SYSTEMPATH\CodeIgniter.php(1068): session()
+10 SYSTEMPATH\CodeIgniter.php(549): CodeIgniter\CodeIgniter->storePreviousURL(Object(CodeIgniter\HTTP\SiteURI))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
