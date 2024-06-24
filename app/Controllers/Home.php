@@ -147,4 +147,12 @@ class Home extends BaseController
         $data["input_data"] = array("username" => $input_username, "f_name" => $input_f_name, "l_name" => $input_l_name, "phone" => $input_phone, "email" => $input_email, "user_id" => $input_user_id);
         return view("form_process", $data);
     }
+
+
+    public function squareXO()
+    {
+        $layers  = $_GET["layers"];
+        $data["layers"] = $layers;
+        return view('square', $data);
+    }
 }

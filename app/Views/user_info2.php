@@ -4,13 +4,20 @@ $data_detail = $user_detail;
 $data_user_game = $user_game;
 $data_game = $game_info;
 $data_acc_info = $acc_info;
+$data_user_event_type_1 = $user_event_type_1;
+$data_user_event_type_0 = $user_event_type_0;
+
+$data_reward_status = $reward_status;
+
+
 
 
 for ($i = 0; $i < count($data); $i++) {
     if (isset($data[$i])) {
         $user_id = $data[$i]->user_id;
         $username = $data[$i]->username;
-        $created_at = $data[$i]->created_at;;
+        $created_at = $data[$i]->created_at;
+        $status_approve = $data[$i]->status_approve;
     } else {
         echo "No Data Found";
     }
@@ -83,7 +90,80 @@ for ($i = 0; $i < count($data_detail); $i++) {
                 window.location.reload();
             });
         }
+
+        function handleReward(user_id, status_approve, total, arr, reward_status) {
+            if (status_approve != 1) {
+                alert("บัญชีนี้ยังไม่ยืนยัน !");
+                return;
+            }
+
+            if (reward_status == 1) {
+                alert("คุณรับรางวัลนี้แล้ว !");
+                return;
+            }
+            const obj = JSON.parse(arr)
+            console.log(user_id, status_approve, total, obj);
+
+            for (i = 0; i < obj.length; i++) {
+                console.log(obj[i].game_name);
+                console.log(obj[i].total);
+                switch (obj[i].game_name) {
+                    case "ROA":
+                        if (obj[i].total < 15000) {
+                            alert("ยอดของเกม: " + obj[i].game_name + " ไม่ถึงยอดขั้นต่ำ 15000")
+                            return;
+                        }
+                        break;
+                    case "ROB":
+                        if (obj[i].total < 10000) {
+                            alert("ยอดของเกม: " + obj[i].game_name + " ไม่ถึงยอดขั้นต่ำ 10000")
+                            return;
+                        }
+                        break;
+                    case "ROC":
+                        if (obj[i].total < 50000) {
+                            alert("ยอดของเกม: " + obj[i].game_name + " ไม่ถึงยอดขั้นต่ำ 50000")
+                            return;
+                        }
+                        break;
+                }
+            }
+
+            if (total < 100000) {
+                alert("ยอดรวมทั้งหมดไม่ถึงยอดขั้นต่ำ 100,000 คุณมียอดทั้งหมด " + total)
+                return;
+            }
+
+            $.ajax({
+                type: "POST",
+                url: "reward",
+                data: "id=" + user_id,
+                success: function(msg) {
+                    alert(msg);
+                }
+            });
+            $(document).ajaxStop(function() {
+                window.location.reload();
+            });
+
+        }
     </script>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid;
+            text-align: center;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
 </head>
 
 <body>
@@ -139,8 +219,183 @@ for ($i = 0; $i < count($data_detail); $i++) {
     <?php endswitch; ?>
     <h1>CASH : <?php echo $user_cash ?></h1>
     <h1>CREATED AT : <?php echo $created_at ?></h1>
-    <?php
 
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Event_id</th>
+            <th>Username</th>
+            <th>Cash</th>
+            <th>Time</th>
+            <th>Reward</th>
+            <th>type_user</th>
+        </tr>
+        <?php
+        for ($i = 0; $i < count($data_user_event_type_1); $i++) {
+            if (isset($data_user_event_type_1[$i])) {
+                $no = $data_user_event_type_1[$i]->no;
+                $event_id = $data_user_event_type_1[$i]->event_id;
+                $username = $data_user_event_type_1[$i]->username;
+                $total = $data_user_event_type_1[$i]->value_sum;
+                $timestamp = $data_user_event_type_1[$i]->date_time;
+                $type_user = $data_user_event_type_1[$i]->type_user;
+                echo "<tr>";
+                echo "<td>$no</td>";
+                echo "<td>$event_id </td>";
+                echo "<td >$username</td>";
+                echo "<td >$total</td>";
+                echo "<td >$timestamp</td>";
+
+                switch ($no) {
+                    case 1:
+                        if ($total < 10000) {
+                            echo "<td >ยอดเงินไม่ตรงเงื่อนไข</td>";
+                            break;
+                        }
+                        echo "<td >รับเงินสด 1500</td>";
+                        break;
+                    case 2:
+                        if ($total < 10000) {
+                            echo "<td >ยอดเงินไม่ตรงเงื่อนไข</td>";
+                            break;
+                        }
+                        echo "<td >รับเงินสด 1000</td>";
+                        break;
+                    case 3:
+                        if ($total < 10000) {
+                            echo "<td >ยอดเงินไม่ตรงเงื่อนไข</td>";
+                            break;
+                        }
+                        echo "<td >รับเงินสด 500</td>";
+                        break;
+                    case 4:
+                        if ($total < 10000) {
+                            echo "<td >ยอดเงินไม่ตรงเงื่อนไข</td>";
+                            break;
+                        }
+                        echo "<td >รับเงินสด 100</td>";
+                        break;
+
+                    case 5:
+                        if ($total < 10000) {
+                            echo "<td >ยอดเงินไม่ตรงเงื่อนไข</td>";
+                            break;
+                        }
+                        echo "<td >รับเงินสด 100</td>";
+                        break;
+
+                    case 6:
+                        if ($total < 10000) {
+                            echo "<td >ยอดเงินไม่ตรงเงื่อนไข</td>";
+                            break;
+                        }
+                        echo "<td >รับเงินสด 100</td>";
+                        break;
+
+                    default:
+                        # code...
+                        echo "<td ></td>";
+                        break;
+                }
+                echo "<td >$type_user</td>";
+
+                echo "</tr>";
+            } else {
+                echo "No Data Found";
+            }
+        }
+        ?>
+    </table>
+
+    <h2>ไม่มีสิทธิ์</h2>
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Event_id</th>
+            <th>Username</th>
+            <th>Cash</th>
+            <th>Time</th>
+            <th>Reward</th>
+            <th>type_user</th>
+        </tr>
+        <?php
+        for ($i = 0; $i < count($data_user_event_type_0); $i++) {
+            if (isset($data_user_event_type_0[$i])) {
+                $no = $data_user_event_type_0[$i]->no;
+                $event_id = $data_user_event_type_0[$i]->event_id;
+                $username = $data_user_event_type_0[$i]->username;
+                $total = $data_user_event_type_0[$i]->value_sum;
+                $timestamp = $data_user_event_type_0[$i]->date_time;
+                $type_user = $data_user_event_type_0[$i]->type_user;
+                echo "<tr>";
+                echo "<td>$no</td>";
+                echo "<td>$event_id </td>";
+                echo "<td >$username</td>";
+                echo "<td >$total</td>";
+                echo "<td >$timestamp</td>";
+
+                switch ($no) {
+                    case 1:
+                        if ($total < 10000) {
+                            echo "<td >ยอดเงินไม่ตรงเงื่อนไข</td>";
+                            break;
+                        }
+                        echo "<td >รับเงินสด 1500</td>";
+                        break;
+                    case 2:
+                        if ($total < 10000) {
+                            echo "<td >ยอดเงินไม่ตรงเงื่อนไข</td>";
+                            break;
+                        }
+                        echo "<td >รับเงินสด 1000</td>";
+                        break;
+                    case 3:
+                        if ($total < 10000) {
+                            echo "<td >ยอดเงินไม่ตรงเงื่อนไข</td>";
+                            break;
+                        }
+                        echo "<td >รับเงินสด 500</td>";
+                        break;
+                    case 4:
+                        if ($total < 10000) {
+                            echo "<td >ยอดเงินไม่ตรงเงื่อนไข</td>";
+                            break;
+                        }
+                        echo "<td >รับเงินสด 100</td>";
+                        break;
+
+                    case 5:
+                        if ($total < 10000) {
+                            echo "<td >ยอดเงินไม่ตรงเงื่อนไข</td>";
+                            break;
+                        }
+                        echo "<td >รับเงินสด 100</td>";
+                        break;
+
+                    case 6:
+                        if ($total < 10000) {
+                            echo "<td >ยอดเงินไม่ตรงเงื่อนไข</td>";
+                            break;
+                        }
+                        echo "<td >รับเงินสด 100</td>";
+                        break;
+
+                    default:
+                        # code...
+                        echo "<td ></td>";
+                        break;
+                }
+                echo "<td >$type_user</td>";
+
+                echo "</tr>";
+            } else {
+                echo "No Data Found";
+            }
+        }
+        ?>
+    </table>
+    <?php
+    $arr = [];
     for ($i = 0; $i < count($data_game); $i++) {
         if (isset($data_game[$i])) {
 
@@ -154,12 +409,28 @@ for ($i = 0; $i < count($data_detail); $i++) {
                 }
             }
             $total = $sum * $game_rate;
+            $arr[$i]["game_name"] = $game_name;
+            $arr[$i]["total"] = $total;
             echo "Game : $game_name Cash : $total ($sum) Rate : $game_rate <br>";
         } else {
             echo "No Data Found";
         }
     }
+    $result = 0;
+    for ($i = 0; $i < count($arr); $i++) {
+        echo $arr[$i]["total"];
+        $result += $arr[$i]["total"];
+        // $arr[$i] = implode(",", $arr[$i]);
+    }
+    $arr_str = json_encode($arr);
+    print_r($arr_str);
+    echo "<br>";
+    echo "<br>";
+    $rewardStatus = $data_reward_status[0]->value_reward;
+    echo "<button id=btn-reward onclick=handleReward('$user_id','$status_approve','$result','$arr_str','$rewardStatus')>รับรางวัล</button>";
     ?>
+    <br>
+
     <a href='logout'>logout</a>
 </body>
 

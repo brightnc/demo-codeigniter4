@@ -16,9 +16,13 @@ class Service extends BaseController
         date_default_timezone_set("Asia/Bangkok");
     }
 
+
+
     public function insert()
     {
-        $sql = "SELECT user_id FROM register WHERE status_approve=1;";
+        $event_id = $this->request->getGet("event_id");
+        // $sql = "SELECT user_id FROM register WHERE status_approve=1;";
+        $sql = "SELECT user_id,status_approve FROM register ;";
         $result = $this->mydev_model->select($sql);
         if (count($result) < 0) {
             echo "Error: can not get user_id from register !";
@@ -38,22 +42,44 @@ class Service extends BaseController
         for ($i = 0; $i < count($result); $i++) {
             for ($j = 0; $j < count($result2); $j++) {
                 if ($result[$i]->user_id == $result2[$j]->user_id) {
-                    $resultArr[$result[$i]->user_id] = $result2[$j]->total_cash;
+                    $resultArr[$i]["user_id"] = $result[$i]->user_id;
+                    $resultArr[$i]["total"] = $result2[$j]->total_cash;
+                    $resultArr[$i]["type_user"] = $result[$i]->status_approve;
                 }
             }
         }
-        arsort($resultArr);
+        $keys = array_column($resultArr, 'total');
+        array_multisort($keys, SORT_DESC, $resultArr);
         print_r($resultArr);
+        echo "<hr>";
+
 
         $now = date("Y-m-d H:i:s");
-        $count = 1;
-        foreach ($resultArr as $k => $v) {
+        $countApprove = 1;
+        $countUnApprove = 1;
 
-            $sql3 = "INSERT INTO user_event (no,event_id, user_id, date_time,value_sum) VALUES (?,?, ?, ?,?)";
-            $bindValue3 = array($count, 20242106, $k, $now, $v);
-            $result3 = $this->mydev_model->execute_binding($sql3, $bindValue3);
-            $count++;
-            print_r($result3);
+        foreach ($resultArr as $val) {
+            if ($val["type_user"] == 1) {
+                $sql3 = "INSERT INTO user_event (no,event_id, user_id, date_time,value_sum,type_user) VALUES (?,?, ?, ?,?,?) ON DUPLICATE KEY UPDATE no=VALUES(no),event_id=VALUES(event_id),date_time=VALUES(date_time),value_sum=VALUES(value_sum) ;";
+                $bindValue3 = array($countApprove, $event_id, $val["user_id"], $now, $val["total"], $val["type_user"]);
+                $result3 = $this->mydev_model->execute_binding($sql3, $bindValue3);
+                print_r($result3);
+                $countApprove++;
+                $sql4 = "UPDATE user_event SET type_user = ? WHERE user_id=?";
+                $bindValue4 = array($val["type_user"], $val["user_id"]);
+                $result4 = $this->mydev_model->execute_binding($sql4, $bindValue4);
+                print_r($result4);
+            } else {
+                $sql3 = "INSERT INTO user_event (no,event_id, user_id, date_time,value_sum,type_user) VALUES (?,?, ?, ?,?,?) ON DUPLICATE KEY UPDATE no=VALUES(no),event_id=VALUES(event_id),date_time=VALUES(date_time),value_sum=VALUES(value_sum) ;";
+                $bindValue3 = array($countUnApprove, $event_id, $val["user_id"], $now, $val["total"], $val["type_user"]);
+                $result3 = $this->mydev_model->execute_binding($sql3, $bindValue3);
+                print_r($result3);
+                $countUnApprove++;
+                $sql4 = "UPDATE user_event SET type_user = ? WHERE user_id=?";
+                $bindValue4 = array($val["type_user"], $val["user_id"]);
+                $result4 = $this->mydev_model->execute_binding($sql4, $bindValue4);
+                print_r($result4);
+            }
         }
         echo "Success insert";
     }
