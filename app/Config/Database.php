@@ -19,17 +19,17 @@ class Database extends Config
      * Lets you choose which connection group to
      * use if no other is specified.
      */
-    public string $defaultGroup = 'user';
+    public string $defaultGroup = 'movie';
 
     /**
      * The default database connection.
      */
-    public array $user = [
+    public array $movie = [
         'DSN'          => '',
         'hostname'     => 'localhost',
         'username'     => 'brightdev',
         'password'     => '43349690',
-        'database'     => 'user',
+        'database'     => 'movie',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,

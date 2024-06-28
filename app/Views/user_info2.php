@@ -6,6 +6,13 @@ $data_game = $game_info;
 $data_acc_info = $acc_info;
 $data_user_event_type_1 = $user_event_type_1;
 $data_user_event_type_0 = $user_event_type_0;
+$data_userid_encrypted = $userid_encrypted;
+$data_userid_decrypted = $userid_decrypted;
+
+print_r($data_userid_encrypted);
+echo "<hr>";
+print_r($data_userid_decrypted);
+echo "<hr>";
 
 $data_reward_status = $reward_status;
 

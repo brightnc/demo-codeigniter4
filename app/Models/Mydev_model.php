@@ -16,7 +16,7 @@ class Mydev_model extends Model
 
     function __construct()
     {
-        $this->db_group_name = \Config\Database::connect('user');
+        $this->db_group_name = \Config\Database::connect('movie');
         parent::__construct();
     }
     function execute($strSQL)

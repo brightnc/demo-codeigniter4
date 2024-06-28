@@ -1,0 +1,1750 @@
+CRITICAL - 2024-06-28 03:33:28 --> InvalidArgumentException: user is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(19): CodeIgniter\Database\Config::connect('user')
+ 2 APPPATH\Controllers\Movie.php(13): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Movie->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 03:33:30 --> InvalidArgumentException: user is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(19): CodeIgniter\Database\Config::connect('user')
+ 2 APPPATH\Controllers\Movie.php(13): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Movie->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 03:33:32 --> InvalidArgumentException: user is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(19): CodeIgniter\Database\Config::connect('user')
+ 2 APPPATH\Controllers\Movie.php(13): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Movie->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 03:33:34 --> InvalidArgumentException: user is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(19): CodeIgniter\Database\Config::connect('user')
+ 2 APPPATH\Controllers\Movie.php(13): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Movie->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 03:33:48 --> InvalidArgumentException: user is not a valid database connection group.
+in SYSTEMPATH\Database\Config.php on line 70.
+ 1 APPPATH\Models\Mydev_model.php(19): CodeIgniter\Database\Config::connect('user')
+ 2 APPPATH\Controllers\Movie.php(13): App\Models\Mydev_model->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Movie->__construct()
+ 4 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 03:34:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 03:34:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 03:34:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 03:34:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 03:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 03:35:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 10:36:05 --> mysqli_sql_exception: Duplicate entry 'test001' for key 'username' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...', Array)
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(35): App\Models\Mydev_model->execute_binding('INSERT INTO use...', Array)
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->register_process()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 10:36:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'test001' for key 'username'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO users ( username, password,birth_date) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Movie.php(35): App\Models\Mydev_model->execute_binding('INSERT INTO users ( username, password,birth_date) VALUES (?, ?, ?)', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->register_process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 10:36:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'test001' for key 'username'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO users ( username, password,birth_date) VALUES (\'test001\', \'fa820cc1ad39a4e99283e9fa555035ec\', \'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO users ( username, password,birth_date) VALUES (\'test001\', \'fa820cc1ad39a4e99283e9fa555035ec\', \'\')')
+ 3 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO users ( username, password,birth_date) VALUES (?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Movie.php(35): App\Models\Mydev_model->execute_binding('INSERT INTO users ( username, password,birth_date) VALUES (?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->register_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 10:36:06 --> [Caused by] mysqli_sql_exception: Duplicate entry 'test001' for key 'username'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO users ( username, password,birth_date) VALUES (\'test001\', \'fa820cc1ad39a4e99283e9fa555035ec\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO users ( username, password,birth_date) VALUES (\'test001\', \'fa820cc1ad39a4e99283e9fa555035ec\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO users ( username, password,birth_date) VALUES (\'test001\', \'fa820cc1ad39a4e99283e9fa555035ec\', \'\')')
+ 4 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO users ( username, password,birth_date) VALUES (?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Movie.php(35): App\Models\Mydev_model->execute_binding('INSERT INTO users ( username, password,birth_date) VALUES (?, ?, ?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->register_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 03:36:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 03:36:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 10:36:21 --> mysqli_sql_exception: Duplicate entry 'test001' for key 'username' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...', Array)
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(35): App\Models\Mydev_model->execute_binding('INSERT INTO use...', Array)
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->register_process()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 10:36:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'test001' for key 'username'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO users ( username, password,birth_date) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Movie.php(35): App\Models\Mydev_model->execute_binding('INSERT INTO users ( username, password,birth_date) VALUES (?, ?, ?)', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->register_process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 10:36:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry 'test001' for key 'username'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO users ( username, password,birth_date) VALUES (\'test001\', \'fa820cc1ad39a4e99283e9fa555035ec\', \'\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO users ( username, password,birth_date) VALUES (\'test001\', \'fa820cc1ad39a4e99283e9fa555035ec\', \'\')')
+ 3 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO users ( username, password,birth_date) VALUES (?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Movie.php(35): App\Models\Mydev_model->execute_binding('INSERT INTO users ( username, password,birth_date) VALUES (?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->register_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 10:36:21 --> [Caused by] mysqli_sql_exception: Duplicate entry 'test001' for key 'username'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO users ( username, password,birth_date) VALUES (\'test001\', \'fa820cc1ad39a4e99283e9fa555035ec\', \'\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO users ( username, password,birth_date) VALUES (\'test001\', \'fa820cc1ad39a4e99283e9fa555035ec\', \'\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO users ( username, password,birth_date) VALUES (\'test001\', \'fa820cc1ad39a4e99283e9fa555035ec\', \'\')')
+ 4 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO users ( username, password,birth_date) VALUES (?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Movie.php(35): App\Models\Mydev_model->execute_binding('INSERT INTO users ( username, password,birth_date) VALUES (?, ?, ?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->register_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 04:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:15:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:15:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 11:15:38 --> mysqli_sql_exception: Unknown column 'date_of_birth' in 'field list' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT user_id,...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user_id,...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user_id,...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(39): CodeIgniter\Database\BaseConnection->query('SELECT user_id,...', Array)
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(39): App\Models\Mydev_model->select_binding('SELECT user_id,...', Array)
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->login_process()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 11:15:38 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'date_of_birth' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(39): CodeIgniter\Database\BaseConnection->query('SELECT user_id, username,date_of_birth,role FROM users WHERE username=? AND password=?;', [...])
+ 2 APPPATH\Controllers\Movie.php(39): App\Models\Mydev_model->select_binding('SELECT user_id, username,date_of_birth,role FROM users WHERE username=? AND password=?;', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->login_process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 11:15:38 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'date_of_birth' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user_id, username,date_of_birth,role FROM users WHERE username=\'test001\' AND password=\'fa820cc1ad39a4e99283e9fa555035ec\';')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user_id, username,date_of_birth,role FROM users WHERE username=\'test001\' AND password=\'fa820cc1ad39a4e99283e9fa555035ec\';')
+ 3 APPPATH\Models\Mydev_model.php(39): CodeIgniter\Database\BaseConnection->query('SELECT user_id, username,date_of_birth,role FROM users WHERE username=? AND password=?;', [...])
+ 4 APPPATH\Controllers\Movie.php(39): App\Models\Mydev_model->select_binding('SELECT user_id, username,date_of_birth,role FROM users WHERE username=? AND password=?;', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->login_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 11:15:38 --> [Caused by] mysqli_sql_exception: Unknown column 'date_of_birth' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT user_id, username,date_of_birth,role FROM users WHERE username=\'test001\' AND password=\'fa820cc1ad39a4e99283e9fa555035ec\';', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT user_id, username,date_of_birth,role FROM users WHERE username=\'test001\' AND password=\'fa820cc1ad39a4e99283e9fa555035ec\';')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT user_id, username,date_of_birth,role FROM users WHERE username=\'test001\' AND password=\'fa820cc1ad39a4e99283e9fa555035ec\';')
+ 4 APPPATH\Models\Mydev_model.php(39): CodeIgniter\Database\BaseConnection->query('SELECT user_id, username,date_of_birth,role FROM users WHERE username=? AND password=?;', [...])
+ 5 APPPATH\Controllers\Movie.php(39): App\Models\Mydev_model->select_binding('SELECT user_id, username,date_of_birth,role FROM users WHERE username=? AND password=?;', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->login_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 04:16:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:16:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:16:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:19:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:23:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 11:23:40 --> ErrorException: Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+in APPPATH\Controllers\Movie.php on line 61.
+ 1 APPPATH\Controllers\Movie.php(61): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class CodeIgniter\\Database\\MySQLi\\Result could not be converted to int', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Movie.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->login_process()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 04:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:24:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 11:24:05 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+in APPPATH\Controllers\Movie.php on line 61.
+ 1 APPPATH\Controllers\Movie.php(61): count(Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->login_process()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 04:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:24:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:24:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:24:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:24:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:24:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:24:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:25:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:25:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:25:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:25:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:25:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:25:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:25:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:25:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:25:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:27:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:27:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:27:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:27:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:27:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:27:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:28:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:28:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:29:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:29:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:29:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:29:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:29:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:31:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:31:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:33:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:33:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:33:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:34:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:34:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:35:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:35:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:35:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:36:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:36:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:37:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:37:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:37:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:37:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:37:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:39:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:39:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 11:39:36 --> Error: Undefined constant "data_user"
+in APPPATH\Views\user_profile.php on line 19.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user_profile', [], true)
+ 4 APPPATH\Controllers\Movie.php(69): view('user_profile', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->login_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 04:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:39:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:39:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:39:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 11:39:53 --> ErrorException: Attempt to read property "username" on array
+in APPPATH\Views\user_profile.php on line 19.
+ 1 APPPATH\Views\user_profile.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "username" on array', 'C:\\xampp\\htdocs\\ci\\app\\Views\\user_profile.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\user_profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user_profile', [], true)
+ 5 APPPATH\Controllers\Movie.php(69): view('user_profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->login_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 04:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:40:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:40:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:45:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:45:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 11:45:58 --> ErrorException: Undefined property: stdClass::$moviename
+in APPPATH\Views\user_profile.php on line 37.
+ 1 APPPATH\Views\user_profile.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$moviename', 'C:\\xampp\\htdocs\\ci\\app\\Views\\user_profile.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\user_profile.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user_profile', [], true)
+ 5 APPPATH\Controllers\Movie.php(69): view('user_profile', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->login_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 04:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:46:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:47:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:47:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:49:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:54:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:54:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:57:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:58:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:58:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:58:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 04:58:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 04:58:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:06:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 12:06:14 --> mysqli_sql_exception: Unknown column 'ticket_price' in 'field list' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT m.movie_...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT m.movie_...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT m.movie_...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT m.movie_...')
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(115): App\Models\Mydev_model->select('SELECT m.movie_...')
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->reservation()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 12:06:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ticket_price' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,ticket_price,ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 2 APPPATH\Controllers\Movie.php(115): App\Models\Mydev_model->select('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,ticket_price,ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 12:06:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'ticket_price' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,ticket_price,ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,ticket_price,ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 3 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,ticket_price,ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 4 APPPATH\Controllers\Movie.php(115): App\Models\Mydev_model->select('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,ticket_price,ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 12:06:14 --> [Caused by] mysqli_sql_exception: Unknown column 'ticket_price' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,ticket_price,ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,ticket_price,ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,ticket_price,ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 4 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,ticket_price,ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 5 APPPATH\Controllers\Movie.php(115): App\Models\Mydev_model->select('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,ticket_price,ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 05:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:06:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 12:06:31 --> mysqli_sql_exception: Unknown column 'd.ticket_detail' in 'field list' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT m.movie_...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT m.movie_...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT m.movie_...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT m.movie_...')
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(115): App\Models\Mydev_model->select('SELECT m.movie_...')
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->reservation()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 12:06:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'd.ticket_detail' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,d.ticket_prices,d.ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 2 APPPATH\Controllers\Movie.php(115): App\Models\Mydev_model->select('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,d.ticket_prices,d.ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 12:06:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'd.ticket_detail' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,d.ticket_prices,d.ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,d.ticket_prices,d.ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 3 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,d.ticket_prices,d.ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 4 APPPATH\Controllers\Movie.php(115): App\Models\Mydev_model->select('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,d.ticket_prices,d.ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 12:06:31 --> [Caused by] mysqli_sql_exception: Unknown column 'd.ticket_detail' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,d.ticket_prices,d.ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,d.ticket_prices,d.ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,d.ticket_prices,d.ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 4 APPPATH\Models\Mydev_model.php(34): CodeIgniter\Database\BaseConnection->query('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,d.ticket_prices,d.ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 5 APPPATH\Controllers\Movie.php(115): App\Models\Mydev_model->select('SELECT m.movie_name,d.duration_min,d.movie_start,d.movie_end,d.rate_age,d.ticket_prices,d.ticket_detail
+                    FROM movie_detail  AS d
+                    LEFT JOIN movies AS m ON d.movie_id=m.movie_id
+                    ORDER  BY d.movie_start;')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 05:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:06:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-28 05:26:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:26:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+WARNING - 2024-06-28 05:26:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:27:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:27:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:27:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:30:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:30:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:35:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:35:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:46:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:46:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:47:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:47:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:47:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:47:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:47:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:47:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:47:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:47:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:47:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:47:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:47:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:47:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:47:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:47:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:47:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:47:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:51:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:51:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:51:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:51:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:51:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:51:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:51:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:51:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:51:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:51:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:51:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:51:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:51:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:55:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:55:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:55:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:55:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 12:55:21 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given
+in APPPATH\Controllers\Movie.php on line 139.
+ 1 APPPATH\Controllers\Movie.php(139): count(true)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 05:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:55:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:56:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:56:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:56:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 12:56:29 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given
+in APPPATH\Controllers\Movie.php on line 139.
+ 1 APPPATH\Controllers\Movie.php(139): count(true)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 05:57:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:57:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:57:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 12:57:12 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given
+in APPPATH\Controllers\Movie.php on line 139.
+ 1 APPPATH\Controllers\Movie.php(139): count(true)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 05:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:57:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:57:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:57:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:57:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 12:57:49 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given
+in APPPATH\Controllers\Movie.php on line 139.
+ 1 APPPATH\Controllers\Movie.php(139): count(true)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 05:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:57:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:57:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:57:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 12:57:58 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given
+in APPPATH\Controllers\Movie.php on line 139.
+ 1 APPPATH\Controllers\Movie.php(139): count(true)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 05:58:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:58:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 12:58:01 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given
+in APPPATH\Controllers\Movie.php on line 139.
+ 1 APPPATH\Controllers\Movie.php(139): count(true)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 05:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:59:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:59:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:59:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 12:59:06 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given
+in APPPATH\Controllers\Movie.php on line 139.
+ 1 APPPATH\Controllers\Movie.php(139): count(true)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 05:59:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:59:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:59:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 05:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 05:59:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 12:59:54 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given
+in APPPATH\Controllers\Movie.php on line 139.
+ 1 APPPATH\Controllers\Movie.php(139): count(true)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 06:01:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:01:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:01:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:01:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:01:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:01:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 13:01:58 --> mysqli_sql_exception: Unknown column 'total_pric' in 'field list' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO res...', Array)
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 13:01:58 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_pric' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:01:58 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_pric' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2002\', \'200\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2002\', \'200\')')
+ 3 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:01:58 --> [Caused by] mysqli_sql_exception: Unknown column 'total_pric' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2002\', \'200\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2002\', \'200\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2002\', \'200\')')
+ 4 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 06:02:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:02:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:02:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:02:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 13:02:35 --> mysqli_sql_exception: Unknown column 'total_pric' in 'field list' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO res...', Array)
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 13:02:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_pric' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:02:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_pric' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2003\', \'100\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2003\', \'100\')')
+ 3 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:02:35 --> [Caused by] mysqli_sql_exception: Unknown column 'total_pric' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2003\', \'100\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2003\', \'100\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2003\', \'100\')')
+ 4 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 06:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:03:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:03:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:03:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:03:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:03:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:03:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 13:03:21 --> mysqli_sql_exception: Unknown column 'total_pric' in 'field list' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO res...', Array)
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 13:03:21 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_pric' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:03:21 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_pric' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2004\', \'150\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2004\', \'150\')')
+ 3 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:03:21 --> [Caused by] mysqli_sql_exception: Unknown column 'total_pric' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2004\', \'150\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2004\', \'150\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (\'10003\', \'2004\', \'150\')')
+ 4 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_pric) VALUES (?, ?, ?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 06:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:03:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:03:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:03:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:04:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:04:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:04:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:04:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:04:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:04:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:04:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:04:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:05:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:05:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 13:05:10 --> mysqli_sql_exception: Unknown column 'total_prie' in 'field list' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO res...', Array)
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 13:05:10 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_prie' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:05:10 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_prie' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2002\', \'200\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2002\', \'200\')')
+ 3 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:05:10 --> [Caused by] mysqli_sql_exception: Unknown column 'total_prie' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2002\', \'200\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2002\', \'200\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2002\', \'200\')')
+ 4 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 06:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:05:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:05:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 13:05:12 --> mysqli_sql_exception: Unknown column 'total_prie' in 'field list' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO res...', Array)
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 13:05:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_prie' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:05:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_prie' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2003\', \'100\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2003\', \'100\')')
+ 3 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:05:12 --> [Caused by] mysqli_sql_exception: Unknown column 'total_prie' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2003\', \'100\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2003\', \'100\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2003\', \'100\')')
+ 4 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 06:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:05:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:05:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:05:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:05:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:05:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 13:05:24 --> mysqli_sql_exception: Unknown column 'total_prie' in 'field list' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO res...', Array)
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 13:05:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_prie' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:05:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'total_prie' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2004\', \'150\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2004\', \'150\')')
+ 3 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:05:24 --> [Caused by] mysqli_sql_exception: Unknown column 'total_prie' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2004\', \'150\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2004\', \'150\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (\'10003\', \'2004\', \'150\')')
+ 4 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Movie.php(137): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_prie) VALUES (?, ?, ?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 06:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:06:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:06:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:06:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:06:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:06:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:07:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 13:07:16 --> ErrorException: Undefined variable $result
+in APPPATH\Controllers\Movie.php on line 78.
+ 1 APPPATH\Controllers\Movie.php(78): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $result', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Movie.php', 78)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->login_process()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 06:08:53 --> ParseError: syntax error, unexpected token "public"
+in APPPATH\Controllers\Movie.php on line 116.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute('movie/login_process', 'get')
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute('movie/login_process')
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle('movie/login_process')
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 06:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:11:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:12:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:13:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:14:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:14:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:16:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:16:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:16:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:16:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:18:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:18:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:18:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:18:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:18:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:18:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:18:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:18:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:18:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:20:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:20:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:20:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:21:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 13:21:54 --> mysqli_sql_exception: Duplicate entry '10003-2006' for key 'user_id' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO res...', Array)
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 13:21:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '10003-2006' for key 'user_id'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:21:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '10003-2006' for key 'user_id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2006\', \'150\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2006\', \'150\')')
+ 3 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:21:54 --> [Caused by] mysqli_sql_exception: Duplicate entry '10003-2006' for key 'user_id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2006\', \'150\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2006\', \'150\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2006\', \'150\')')
+ 4 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 06:21:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:21:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:22:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:22:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:22:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 13:22:24 --> mysqli_sql_exception: Duplicate entry '10003-2006' for key 'user_id' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO res...', Array)
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 13:22:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '10003-2006' for key 'user_id'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:22:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '10003-2006' for key 'user_id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2006\', \'150\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2006\', \'150\')')
+ 3 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:22:24 --> [Caused by] mysqli_sql_exception: Duplicate entry '10003-2006' for key 'user_id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2006\', \'150\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2006\', \'150\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2006\', \'150\')')
+ 4 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 06:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:22:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:25:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:25:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:25:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 13:25:41 --> mysqli_sql_exception: Duplicate entry '10003-2002' for key 'user_id' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO res...', Array)
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 13:25:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '10003-2002' for key 'user_id'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:25:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '10003-2002' for key 'user_id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')')
+ 3 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:25:41 --> [Caused by] mysqli_sql_exception: Duplicate entry '10003-2002' for key 'user_id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')')
+ 4 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 06:25:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:25:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:25:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:25:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:25:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:25:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 13:25:51 --> mysqli_sql_exception: Duplicate entry '10003-2002' for key 'user_id' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO res...', Array)
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 13:25:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '10003-2002' for key 'user_id'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:25:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '10003-2002' for key 'user_id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')')
+ 3 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:25:51 --> [Caused by] mysqli_sql_exception: Duplicate entry '10003-2002' for key 'user_id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')')
+ 4 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 06:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:26:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:26:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:26:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+ERROR - 2024-06-28 13:26:30 --> mysqli_sql_exception: Duplicate entry '10003-2002' for key 'user_id' in C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO res...', 0)
+#1 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO res...')
+#2 C:\xampp\htdocs\ci\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO res...')
+#3 C:\xampp\htdocs\ci\app\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO res...', Array)
+#4 C:\xampp\htdocs\ci\app\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO res...', Array)
+#5 C:\xampp\htdocs\ci\system\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+#6 C:\xampp\htdocs\ci\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+#7 C:\xampp\htdocs\ci\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-06-28 13:26:30 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '10003-2002' for key 'user_id'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 2 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:26:30 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '10003-2002' for key 'user_id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')')
+ 3 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 4 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-06-28 13:26:30 --> [Caused by] mysqli_sql_exception: Duplicate entry '10003-2002' for key 'user_id'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (\'10003\', \'2002\', \'200\')')
+ 4 APPPATH\Models\Mydev_model.php(29): CodeIgniter\Database\BaseConnection->query('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 5 APPPATH\Controllers\Movie.php(165): App\Models\Mydev_model->execute_binding('INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->reservation_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 06:26:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:26:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:26:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:27:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:27:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:29:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:29:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:29:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:29:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:29:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:29:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:29:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:29:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:31:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:32:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:32:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:32:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:32:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:35:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:35:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:35:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:35:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:35:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:35:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:35:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:35:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:35:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:36:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:38:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:38:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:38:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:38:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:38:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:38:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:38:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:40:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:40:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:52:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:52:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:52:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:52:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:52:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:52:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:53:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:53:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:53:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:53:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:53:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:54:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:54:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:54:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:54:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:55:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:55:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:55:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:55:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:55:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:55:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:55:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:55:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:55:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:56:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:56:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:56:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:56:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:56:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 06:57:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 06:57:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:01:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:07:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:07:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:11:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:16:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:16:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:16:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:16:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:17:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:17:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:17:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:17:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:33:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 14:33:45 --> ErrorException: Undefined variable $movie_name
+in APPPATH\Views\dashboard.php on line 75.
+ 1 APPPATH\Views\dashboard.php(75): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $movie_name', 'C:\\xampp\\htdocs\\ci\\app\\Views\\dashboard.php', 75)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Movie.php(69): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->login_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 07:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:34:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:37:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:37:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 14:37:23 --> ParseError: syntax error, unexpected token "echo", expecting "," or ";"
+in APPPATH\Views\dashboard.php on line 106.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 3 APPPATH\Controllers\Movie.php(69): view('dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->login_process()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 07:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:37:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:38:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:43:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:50:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:50:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:50:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:50:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:50:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:50:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:50:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:54:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:54:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:59:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:59:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 07:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 07:59:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:00:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:00:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:00:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:02:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:02:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:02:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:02:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:02:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:05:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:05:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:05:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:05:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:06:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:06:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:07:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:07:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:09:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:09:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:11:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:11:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:11:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:11:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:11:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:11:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:12:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:12:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:12:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:13:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:13:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:13:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:17:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:17:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:17:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:17:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:18:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:18:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:18:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:20:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:20:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:20:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:20:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:20:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:21:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:21:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:21:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:22:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:22:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:25:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:25:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:25:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:25:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:25:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:25:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:25:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:25:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:27:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:27:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:27:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:27:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:27:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:27:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:27:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:27:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:28:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:28:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:28:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:28:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:28:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:28:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:28:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:28:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:28:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:29:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:29:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:29:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:29:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:29:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:29:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:29:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:29:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:30:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:30:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:30:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:30:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:31:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:31:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:31:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:32:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:32:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:32:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:33:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:33:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:34:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:34:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:34:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:34:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:34:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:36:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:36:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:40:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:40:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:40:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:42:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:42:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:42:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:48:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:48:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:48:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:48:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:48:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:50:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:50:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:51:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:51:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:52:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:52:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:53:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:53:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:53:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:54:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 08:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 08:54:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:01:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 16:01:40 --> ErrorException: Attempt to read property "movie_name" on array
+in APPPATH\Views\dashboard.php on line 90.
+ 1 APPPATH\Views\dashboard.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "movie_name" on array', 'C:\\xampp\\htdocs\\ci\\app\\Views\\dashboard.php', 90)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Movie.php(69): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->login_process()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 09:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:02:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:02:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:02:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:03:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:03:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:03:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:04:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:04:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:04:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:04:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:05:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:05:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:05:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:07:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:07:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:11:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:11:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:11:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:11:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:11:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:11:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:11:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:12:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:12:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:12:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:12:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:12:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:12:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:13:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:13:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:20:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:20:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:23:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:23:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:23:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:23:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:25:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:25:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:39:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:39:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:39:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:41:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:41:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:41:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:41:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:41:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:41:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:41:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:42:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:42:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:49:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:49:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:49:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:49:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:53:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:53:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 09:53:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 09:53:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:02:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:02:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:10:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:10:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:10:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 17:10:44 --> ErrorException: Undefined array key "price"
+in APPPATH\Controllers\Movie.php on line 25.
+ 1 APPPATH\Controllers\Movie.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Movie.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->add_showtime()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 10:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:10:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-06-28 17:10:52 --> ErrorException: Undefined array key "price"
+in APPPATH\Controllers\Movie.php on line 25.
+ 1 APPPATH\Controllers\Movie.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Movie.php', 25)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Movie->add_showtime()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Movie))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-06-28 10:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:11:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:11:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:11:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:12:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:12:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:12:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:12:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:13:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:13:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:16:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:16:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:16:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:16:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:16:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:23:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:23:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:23:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:23:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-06-28 10:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-06-28 10:23:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();

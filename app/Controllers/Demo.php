@@ -3,6 +3,8 @@
 namespace App\Controllers;
 
 use App\Models\Mydev_model;
+use App\Libraries\aescrypt;
+use App\Libraries\curl;
 
 class Demo extends BaseController
 {
@@ -10,6 +12,8 @@ class Demo extends BaseController
     {
         $this->config = new \Config\App();
         $this->mydev_model = new Mydev_model();
+        $this->aes = new aescrypt();
+        $this->curl = new curl();
         $this->session = \Config\Services::session();
         $this->session->start();
         date_default_timezone_set("Asia/Bangkok");
@@ -185,9 +189,12 @@ class Demo extends BaseController
                 $passwordHashed = md5($password);
 
 
+
+
                 $sql_login = "SELECT user_id, username,created_at,status,status_approve FROM register WHERE username=? AND password=?;";
                 $bindValue_login  = array($username, $passwordHashed);
                 $result_login  = $this->mydev_model->select_binding($sql_login, $bindValue_login);
+
 
 
                 $sql2 = "SELECT cash FROM user_detail WHERE user_id=?;";
@@ -245,6 +252,17 @@ class Demo extends BaseController
                 if (count($result_login) > 0 && count($result2) > 0 && count($result3) > 0 && count($result4) > 0 && count($result5) > 0) {
                     $this->session->set("user_id", $result_login[0]->user_id);
                     $this->session->set("status", $result_login[0]->status);
+                    $user_id = $this->session->get("user_id");
+                    $res = $this->curl->post("http://localhost:3000/users",  json_encode(["userId" => $user_id]),  ["Content-Type: application/json", "key:123454"]);
+                    echo "json" .  json_encode(["userId" => $user_id]);
+                    echo "<hr>";
+                    print_r($res->body);
+                    echo "<hr>";
+                    $userid_encrypted = $this->aes->Encrypt(json_encode($user_id), "brightdev");
+                    $userid_decrypted = $this->aes->Decrypt(json_encode($userid_encrypted), "brightdev");
+                    $data["userid_encrypted"] = $userid_encrypted;
+                    $data["userid_decrypted"] = $userid_decrypted;
+
                     $data["user_data"] = $result_login;
                     $data["user_detail"] = $result2;
                     $data["user_game"] = $result3;
@@ -258,6 +276,15 @@ class Demo extends BaseController
             } elseif ($this->session->get("user_id")) {
                 $user_id = $this->session->get("user_id");
                 $event_id = $this->request->getGet("event_id");
+                $res = $this->curl->post("http://localhost:3000/users", json_encode(["userId" => $user_id]), ["Content-Type: application/json", "key:123454"]);
+                echo "json" .  json_encode(["userId" => $user_id]);
+                echo "<hr>";
+                print_r($res->body);
+                echo "<hr>";
+                $userid_encrypted = $this->aes->Encrypt(json_encode($user_id), "brightdev");
+                $userid_decrypted = $this->aes->Decrypt(json_encode($userid_encrypted), "brightdev");
+                $data["userid_encrypted"] = $userid_encrypted;
+                $data["userid_decrypted"] = $userid_decrypted;
 
                 $data["event_id"] = $event_id;
                 $sql = "SELECT user_id, username,created_at,status,status_approve  FROM register WHERE user_id=?;";
@@ -372,5 +399,33 @@ class Demo extends BaseController
         $logger = service("logger");
         $logger->info($message);
         $logger->info("==================================================================================");
+    }
+
+
+    public function getData()
+    {
+        $res = $this->curl->get("http://localhost:3000/users");
+        $dataBody = $res->body;
+        $dataObj = json_decode($dataBody);
+        $data["users"] = $dataObj->data;
+        return view("users", $data);
+    }
+
+    public function postData()
+    {
+        $key = "12345ABC@#";
+        $user_id = "1985169836";
+        $checksum = md5($key . $user_id);
+        $jsonBody = json_encode(["userId" => $user_id, "checksum" => $checksum]);
+        $res = $this->curl->post("http://localhost:3000/users", $jsonBody, ["Content-Type: application/json", "key:123454"]);
+        $code = json_decode($res->info['http_code']);
+        $dataBody = $res->body;
+        if ($code == "400") {
+            echo $dataBody;
+            exit;
+        }
+        $dataObj = json_decode($dataBody);
+        $data["users"] = $dataObj->data;
+        return view("users", $data);
     }
 }

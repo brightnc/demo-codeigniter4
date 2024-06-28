@@ -83,4 +83,62 @@ class Service extends BaseController
         }
         echo "Success insert";
     }
+
+
+    public function getusers()
+    {
+        $userid = $this->request->getGet("userid");
+        header('Content-Type: application/json; charset=utf-8');
+        if ($userid !== null) {
+            $sql = "SELECT * FROM register WHERE user_id=? ;";
+            $result = $this->mydev_model->select_binding($sql, [$userid]);
+            if (count($result) <= 0) {
+
+                $jsonErr = json_encode(["error" => " can not get user from register"]);
+                echo $jsonErr;
+                exit;
+            }
+            $jsonBody = json_encode($result);
+            echo $jsonBody;
+            exit;
+        }
+        $sql = "SELECT * FROM register ;";
+        $result = $this->mydev_model->select($sql);
+        if (count($result) < 0) {
+            echo "Error: can not get users from register !";
+            exit;
+        }
+        $jsonBody = json_encode($result);
+        echo $jsonBody;
+    }
+
+    public function postuser()
+    {
+        $userid = $this->request->getVar("userId");
+        $headers = getallheaders();
+        $reqTestHeader = $headers['test'];
+        $valueHeader = "test1234";
+
+        if ($reqTestHeader !==  $valueHeader) {
+            $jsonErr = json_encode(["error" => " header value not match"]);
+            echo $jsonErr;
+            exit;
+        }
+
+        if ($userid !== null) {
+            $sql = "SELECT * FROM register WHERE user_id=? ;";
+            $result = $this->mydev_model->select_binding($sql, [$userid]);
+            if (count($result) <= 0) {
+
+                $jsonErr = json_encode(["error" => " can not get user from register"]);
+                echo $jsonErr;
+                exit;
+            }
+            $jsonBody = json_encode($result);
+            echo $jsonBody;
+            exit;
+        }
+        $jsonErr = json_encode(["error" => " can not get user from register"]);
+        echo $jsonErr;
+    }
 }
