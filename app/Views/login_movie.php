@@ -17,6 +17,8 @@
         <input type="text" name="password">
         <input type="submit" value="login">
     </form>
+
+    <a href="https://8497-2405-9800-bc90-368d-4414-7363-c44f-8f89.ngrok-free.app/ci/public/movie/register">register</a>
 </body>
 
 </html>

@@ -31,6 +31,7 @@ if (isset($_SESSION["user_id"])) {
         <input type="text" name="password">
         <input type="submit" value="login">
     </form>
+
 </body>
 
 </html>

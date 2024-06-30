@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\Mydev_model;
+use DateTime;
 
 
 class Movie extends BaseController
@@ -15,6 +16,125 @@ class Movie extends BaseController
         $this->session->start();
         date_default_timezone_set("Asia/Bangkok");
     }
+    public function add_movie()
+    {
+        $movie_name = $_POST["movie_name"];
+        $movie_start = $_POST["movie_start"];
+        $movie_end = $_POST["movie_end"];
+        $movie_duration = $_POST["movie_duration"];
+        $movie_rate = $_POST["movie_rate"];
+
+        $sql = "INSERT INTO movies ( movie_name, start_date,end_date,rate_age,duration_min) VALUES (?, ?, ?,?,?)";
+        $bindValue = array($movie_name, $movie_start, $movie_end, $movie_rate, $movie_duration);
+        $result = $this->mydev_model->execute_binding($sql, $bindValue);
+
+        if ($result < 0) {
+            echo "err";
+        }
+
+        echo "Success";
+    }
+
+    public function edit_movie_process()
+    {
+        $movie_id = $_POST["movie_id"];
+        $movie_name = rawurldecode($_POST["movie_name"]);
+        $start_date = $_POST["start_date"];
+        $end_date = $_POST["end_date"];
+        $duration_min = $_POST["duration_min"];
+        $rate_age = $_POST["rate_age"];
+
+        $sql = "UPDATE movies SET movie_name = ?, start_date=?, end_date=?, rate_age=?, duration_min=? WHERE movie_id=?;";
+        $bindValue = array($movie_name, $start_date, $end_date, $rate_age, $duration_min, $movie_id);
+        $result = $this->mydev_model->execute_binding($sql, $bindValue);
+        if (!$result) {
+            echo "error editing movie id : " . $movie_id;
+            exit;
+        }
+
+        echo "แก้ไขสำเร็จ";
+    }
+
+    public function edit_movie_detail_process()
+    {
+        $movie_detail_id = $_POST["movie_detail_id"];
+        $movie_start = $_POST["movie_start"];
+        $movie_end = $_POST["movie_end"];
+        $ticket_prices = $_POST["ticket_prices"];
+        $ticket_discount = $_POST["ticket_discount"];
+
+        $sql = "UPDATE movie_detail SET movie_start=?, movie_end=?,ticket_prices=?,ticket_discount=? WHERE movie_detail_id=?;";
+        $bindValue = array($movie_start, $movie_end, $ticket_prices, $ticket_discount, $movie_detail_id);
+        $result = $this->mydev_model->execute_binding($sql, $bindValue);
+        if (!$result) {
+            echo "error editing movie id : " . $movie_detail_id;
+            exit;
+        }
+
+        echo "แก้ไขสำเร็จ";
+    }
+
+    public function edit_movie()
+    {
+        $movie_id = $_GET["movie_id"];
+        $movie_name = rawurldecode($_GET["movie_name"]);
+        $start_date = $_GET["start_date"];
+        $end_date = $_GET["end_date"];
+        $duration_min = $_GET["duration_min"];
+        $rate_age = $_GET["rate_age"];
+        $data["movie_info"] = array("movie_id" => $movie_id, "movie_name" => $movie_name, "start_date" => $start_date, "end_date" => $end_date,  "duration_min" => $duration_min,  "rate_age" => $rate_age);
+
+
+        return view("edit_movie", $data);
+    }
+
+
+
+    public function edit_movie_detail()
+    {
+        $movie_detail_id = $_GET["movie_detail_id"];
+        $movie_name = rawurldecode($_GET["movie_name"]);
+        $movie_start = rawurldecode($_GET["movie_start"]);
+        $movie_end = rawurldecode($_GET["movie_end"]);
+        $duration_min = $_GET["duration_min"];
+        $rate_age = $_GET["rate_age"];
+        $ticket_prices = $_GET["ticket_prices"];
+        $ticket_discount = $_GET["ticket_discount"];
+        $data["movie_info"] = array("movie_detail_id" => $movie_detail_id, "movie_name" => $movie_name, "movie_start" => $movie_start, "movie_end" => $movie_end,  "duration_min" => $duration_min,  "rate_age" => $rate_age,  "ticket_prices" => $ticket_prices,  "ticket_discount" => $ticket_discount);
+
+
+        return view("edit_movie_detail", $data);
+    }
+
+    public function del_movie_detail()
+    {
+        $movie_detail_id = $_GET["movie_detail_id"];
+        $sql = "DELETE FROM movie_detail WHERE movie_detail_id=?;";
+        $bindValue = array($movie_detail_id);
+        $result = $this->mydev_model->execute_binding($sql, $bindValue);
+        if (!$result) {
+            echo "error delete movie_detail_id :" . $movie_detail_id;
+            exit;
+        }
+        echo "Successfully deleted";
+    }
+
+    public function del_movie()
+    {
+        $movie_id = $_GET["movie_id"];
+
+        $sql = "DELETE FROM movies WHERE movie_id=?;";
+        $bindValue = array($movie_id);
+        $result = $this->mydev_model->execute_binding($sql, $bindValue);
+        if (!$result) {
+            echo "error delete movie_id :" . $movie_id;
+            exit;
+        }
+        echo "Successfully deleted";
+    }
+
+
+
 
     public function add_showtime()
     {
@@ -49,7 +169,7 @@ class Movie extends BaseController
     public function logout()
     {
         $this->session->destroy();
-        return redirect()->to('movie/login');
+        return redirect()->to("https://8497-2405-9800-bc90-368d-4414-7363-c44f-8f89.ngrok-free.app/ci/public/movie/login");
     }
 
     public function register()
@@ -70,11 +190,20 @@ class Movie extends BaseController
                 $bindValue_login  = array($username, $passwordHashed);
                 $result_login  = $this->mydev_model->select_binding($sql_login, $bindValue_login);
 
+
+
                 if (count($result_login) > 0) {
                     $user_id = $result_login[0]->user_id;
                     $role = $result_login[0]->role;
+                    $birth_date = $result_login[0]->birth_date;
+
+                    $birthDate = new DateTime($birth_date);
+                    $currentDate = new DateTime();
+                    $age = $currentDate->diff($birthDate);
+
                     $this->session->set("user_id", $user_id);
                     $this->session->set("role", $role);
+                    $this->session->set("age", $age->y);
                     if ($role == 1) {
                         $data["user"] = $result_login;
                         //admin_movie
@@ -84,11 +213,10 @@ class Movie extends BaseController
 
 
                         //admin_movie_detail
-                        $sql_admin_movie_detail  = "SELECT d.movie_id,m.movie_name,m.duration_min,d.movie_start,d.movie_end,m.rate_age,d.ticket_prices,d.ticket_discount,m.start_date,m.end_date
+                        $sql_admin_movie_detail  = "SELECT  d.movie_detail_id,d.movie_id,m.movie_name,m.duration_min,d.movie_start,d.movie_end,m.rate_age,d.ticket_prices,d.ticket_discount,m.start_date,m.end_date,(SELECT COUNT(*) FROM reservation WHERE reservation.movie_detail_id = d.movie_detail_id) AS reservation_count
                         FROM movie_detail AS d
                         LEFT JOIN movies AS m ON d.movie_id=m.movie_id;";
                         $result_admin_movie_detail  = $this->mydev_model->select($sql_admin_movie_detail);
-
                         $data["admin_movies"] = $result_admin_movies;
                         $data["movie_detail"] = $result_admin_movie_detail;
                         return view("dashboard", $data);
@@ -103,14 +231,9 @@ class Movie extends BaseController
                     $bindValue_reservation  = array($user_id);
                     $result_reservation  = $this->mydev_model->select_binding($sql_reservation, $bindValue_reservation);
 
-
-                    if (count($result_reservation) < 1) {
-                        echo $user_id;
-                        exit;
-                    }
+                    $data["user_age"] =  $age->y;
                     $data["user"] = $result_login;
                     $data["info"] = $result_reservation;
-
                     return view("user_profile", $data);
                 } else {
                     echo "result error";
@@ -126,11 +249,33 @@ class Movie extends BaseController
                 if (count($result_login) > 0) {
                     $user_id = $result_login[0]->user_id;
                     $role = $result_login[0]->role;
+                    $birth_date = $result_login[0]->birth_date;
+
+                    $birthDate = new DateTime($birth_date);
+                    $currentDate = new DateTime();
+                    $age = $currentDate->diff($birthDate);
+
                     $this->session->set("user_id", $user_id);
                     $this->session->set("role", $role);
+                    $this->session->set("age", $age->y);
+
                     if ($role == 1) {
-                        # code...
-                        return view("dashboard");
+                        $data["user"] = $result_login;
+                        //admin_movie
+                        $sql_admin_movies = "SELECT movie_id,movie_name,duration_min,rate_age,start_date,end_date
+                        FROM movies";
+                        $result_admin_movies  = $this->mydev_model->select($sql_admin_movies);
+
+
+                        //admin_movie_detail
+                        $sql_admin_movie_detail  = "SELECT d.movie_detail_id,d.movie_id,m.movie_name,m.duration_min,d.movie_start,d.movie_end,m.rate_age,d.ticket_prices,d.ticket_discount,m.start_date,m.end_date,(SELECT COUNT(*) FROM reservation WHERE reservation.movie_detail_id = d.movie_detail_id) AS reservation_count
+                        FROM movie_detail AS d
+                        LEFT JOIN movies AS m ON d.movie_id=m.movie_id;";
+                        $result_admin_movie_detail  = $this->mydev_model->select($sql_admin_movie_detail);
+                        
+                        $data["admin_movies"] = $result_admin_movies;
+                        $data["movie_detail"] = $result_admin_movie_detail;
+                        return view("dashboard", $data);
                     }
 
                     $sql_reservation = "SELECT m.movie_name,m.duration_min,d.movie_start,d.movie_end,m.rate_age,r.total_price
@@ -143,10 +288,11 @@ class Movie extends BaseController
                     $result_reservation  = $this->mydev_model->select_binding($sql_reservation, $bindValue_reservation);
 
 
-                    if (count($result_reservation) < 1) {
-                        echo $user_id;
-                        exit;
-                    }
+                    // if (count($result_reservation) < 1) {
+                    //     echo $user_id;
+                    //     exit;
+                    // }
+                    $data["user_age"] =  $age->y;
                     $data["user"] = $result_login;
                     $data["info"] = $result_reservation;
 
@@ -156,7 +302,8 @@ class Movie extends BaseController
                     exit;
                 }
             } else {
-                echo "error";
+                $user_id = $this->session->get("user_id");
+                echo "error please login";
                 exit;
             }
         }
@@ -174,7 +321,12 @@ class Movie extends BaseController
                 $sql = "INSERT INTO users ( username, password,birth_date) VALUES (?, ?, ?)";
                 $bindValue = array($username, $passwordHashed, $date_of_birth);
                 $result = $this->mydev_model->execute_binding($sql, $bindValue);
-                print_r($result);
+
+                if ($result < 0) {
+                    echo "err";
+                }
+
+                return redirect()->to("https://8497-2405-9800-bc90-368d-4414-7363-c44f-8f89.ngrok-free.app/ci/public/movie/login");
             }
         }
     }
@@ -201,9 +353,17 @@ class Movie extends BaseController
     public function reservation_process()
     {
         if (isset($_POST["user_id"]) && isset($_POST["movie_detail_id"])) {
+
+            $user_age = $this->session->get("age");
             $movie_detail_id = $_POST["movie_detail_id"];
             $user_id = $_POST["user_id"];
             $final_prices = $_POST["final_prices"];
+            $rate_age = $_POST["rate_age"];
+
+            if ($user_age < $rate_age) {
+                echo "error The minimum rate age has not passed!!";
+                exit;
+            }
 
             $sql = "INSERT INTO reservation ( user_id, movie_detail_id,total_price) VALUES (?, ?, ?)";
             $bindValue = array($user_id, $movie_detail_id,  $final_prices);
