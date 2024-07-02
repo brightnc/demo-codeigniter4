@@ -13,8 +13,7 @@ $data_user = $user;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
     <link rel="stylesheet" href="/resources/demos/style.css">
@@ -22,89 +21,99 @@ $data_user = $user;
     <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
 
     <script>
-    $(function() {
-        $("#datepicker").datepicker({
-            dateFormat: 'yy-mm-dd'
+        $(function() {
+            $("#datepicker").datepicker({
+                dateFormat: 'yy-mm-dd'
+            });
         });
-    });
-
-    myModal.addEventListener('shown.bs.modal', () => {
-        myInput.focus()
-    })
     </script>
     <script>
-    function handleAddShowTime() {
-        const datepicker = $('#datepicker').val();
-        const time_input = $('#time_input').val();
-        const price = $('#price').val();
-        const promotion = $('#promotion').val();
-        const movie_detail = $('#movies_select').find(":selected").val();
-        const movie_detailArr = movie_detail.split(",")
-        const movie_id = movie_detailArr[0];
-        const movie_duration = movie_detailArr[1];
-        console.log("datepicker : " + datepicker + " time_input : " + time_input + " movie_id  : " + movie_id +
-            " movie_duration : " + movie_duration);
-        $.ajax({
-            type: "POST",
-            url: "add_showtime",
-            data: "date=" + datepicker + "&time=" + time_input + "&movie_id=" + movie_id +
-                "&movie_duration=" + movie_duration + "&price=" + price + "&promotion=" + promotion,
-            success: function(msg) {
-                alert("Data Saved: " + msg);
+        function handleAddShowTime() {
+            const datepicker = $('#datepicker').val();
+            const time_input = $('#time_input').val();
+            const price = $('#price').val();
+            const promotion = $('#promotion').val();
+            const movie_detail = $('#movies_select').find(":selected").val();
+            const movie_detailArr = movie_detail.split(",")
+            const movie_id = movie_detailArr[0];
+            const movie_duration = movie_detailArr[1];
+            console.log("datepicker : " + datepicker + " time_input : " + time_input + " movie_id  : " + movie_id +
+                " movie_duration : " + movie_duration);
+            $.ajax({
+                type: "POST",
+                url: "add_showtime",
+                data: "date=" + datepicker + "&time=" + time_input + "&movie_id=" + movie_id +
+                    "&movie_duration=" + movie_duration + "&price=" + price + "&promotion=" + promotion,
+                success: function(msg) {
+                    alert("Data Saved: " + msg);
+                }
+            });
+            $(document).ajaxStop(function() {
+                window.location.reload();
+            });
+        }
+
+        function handleAddMovie() {
+            const movie_name = $('#add_movie_name').val();
+            const movie_start = $('#add_movie_start').val();
+            const movie_end = $('#add_movie_end').val();
+            const movie_rate = $('#add_movie_rate').val();
+            const movie_duration = $('#add_movie_duration').val();
+
+            const now = new Date();
+            now.setHours(0, 0, 0, 0)
+            const start_date = new Date(movie_start);
+            const end_date = new Date(movie_end);
+
+            if (start_date.getTime() < now.getTime()) {
+                alert("wrong start date")
+                return
             }
-        });
-        $(document).ajaxStop(function() {
-            window.location.reload();
-        });
-    }
 
-    function handleAddMovie() {
-        const movie_name = $('#add_movie_name').val();
-        const movie_start = $('#add_movie_start').val();
-        const movie_end = $('#add_movie_end').val();
-        const movie_rate = $('#add_movie_rate').val();
-        const movie_duration = $('#add_movie_duration').val();
-
-        $.ajax({
-            type: "POST",
-            url: "add_movie",
-            data: "movie_name=" + movie_name + "&movie_start=" + movie_start + "&movie_end=" + movie_end +
-                "&movie_rate=" + movie_rate + "&movie_duration=" + movie_duration,
-            success: function(msg) {
-                alert("Data Saved: " + msg);
+            if (end_date.getTime() <= start_date.getTime()) {
+                alert("wrong end date")
+                return
             }
-        });
-        $(document).ajaxStop(function() {
-            window.location.reload();
-        });
-    }
 
-    function handleClick(movie_id, movie_name, start_date, end_date, duration_min, rate_age) {
+            $.ajax({
+                type: "POST",
+                url: "add_movie",
+                data: "movie_name=" + movie_name + "&movie_start=" + movie_start + "&movie_end=" + movie_end +
+                    "&movie_rate=" + movie_rate + "&movie_duration=" + movie_duration,
+                success: function(msg) {
+                    alert("Data Saved: " + msg);
+                }
+            });
+            $(document).ajaxStop(function() {
+                window.location.reload();
+            });
+        }
 
-        console.log(movie_id);
-        $.ajax({
-            type: "post",
-            url: "edit_movie",
-            data: "movie_name=" + movie_name + "&movie_id=" + movie_id + "&start_date=" + start_date +
-                "&end_date=" + end_date + "&duration_min=" + duration_min + "&rate_age=" + rate_age,
-            success: function(msg) {
-                console.log(msg);
-            }
-        });
+        function handleClick(movie_id, movie_name, start_date, end_date, duration_min, rate_age) {
+
+            console.log(movie_id);
+            $.ajax({
+                type: "post",
+                url: "edit_movie",
+                data: "movie_name=" + movie_name + "&movie_id=" + movie_id + "&start_date=" + start_date +
+                    "&end_date=" + end_date + "&duration_min=" + duration_min + "&rate_age=" + rate_age,
+                success: function(msg) {
+                    console.log(msg);
+                }
+            });
 
 
-    }
+        }
 
-    function handleDel() {
-        return
-    }
+        function handleDel() {
+            return
+        }
     </script>
 </head>
 
 <body>
     <div class="mt-6 mx-5">
-        <h1 class="text-3xl font-bold">ADMIN DASHBOARD : <span
-                class="font-normal"><?php echo $data_user[0]->username; ?></span></h1>
+        <h1 class="text-3xl font-bold">ADMIN DASHBOARD : <span class="font-normal"><?php echo $data_user[0]->username; ?></span></h1>
 
 
         <h2 class="text-2xl mt-5 font-normal">เพิ่มหนัง</h2>
@@ -113,35 +122,29 @@ $data_user = $user;
 
                 <div class="w-full">
                     <label for="add_movie_name" class="inline">ชื่อหนัง :</label>
-                    <input type="text" id="add_movie_name"
-                        class="mb-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 ">
+                    <input type="text" id="add_movie_name" class="mb-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 ">
                 </div>
 
                 <div>
                     <label for="add_movie_start">วันเข้าโรง :</label>
-                    <input type="date" id="add_movie_start"
-                        class="mb-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 ">
+                    <input type="date" id="add_movie_start" class="mb-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 ">
                 </div>
                 <div>
                     <label for="add_movie_end">วันออกโรง :</label>
-                    <input type="date" id="add_movie_end"
-                        class="mb-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 ">
+                    <input type="date" id="add_movie_end" class="mb-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 ">
                 </div>
                 <div>
                     <label for="add_movie_rate">เรทอายุ(ปี) :</label>
-                    <input type="number" id="add_movie_rate"
-                        class="mb-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 ">
+                    <input type="number" min="0" id="add_movie_rate" class="mb-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 ">
                 </div>
 
 
                 <div>
                     <label for="add_movie_duration">ความยาวหนัง(นาที) :</label>
-                    <input type="number" id="add_movie_duration"
-                        class="mb-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 ">
+                    <input type="number" min="0" id="add_movie_duration" class="mb-3 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-1/2 p-2.5 ">
                 </div>
 
-                <button onclick="handleAddMovie()"
-                    class=" text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center">เพิ่ม</button>
+                <button onclick="handleAddMovie()" class=" text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full px-5 py-2.5 text-center">เพิ่ม</button>
             </div>
 
 
@@ -176,10 +179,10 @@ $data_user = $user;
                         echo "<td  class='border border-slate-300'>" . $end_date . "</td>";
                         echo "<td  class='border border-slate-300'>" . $duration_min . "</td>";
                         echo "<td  class='border border-slate-300'>" . $rate_age . "</td>";
-                        echo "<td  class='border border-slate-300'>" . "<a class='font-bold text-orange-400 cursor-pointer' href=" . "'" . base_url('/ci/public/movie/edit_movie') . "?movie_name=" . rawurlencode($movie_name) . "&movie_id=" . $movie_id . "&start_date=" . $start_date .
+                        echo "<td  class='border border-slate-300'>" . "<a class='font-bold text-orange-400 cursor-pointer' href=" . "'" . base_url('movie/edit_movie') . "?movie_name=" . rawurlencode($movie_name) . "&movie_id=" . $movie_id . "&start_date=" . $start_date .
                             "&end_date=" . $end_date . "&duration_min=" . $duration_min . "&rate_age=" . $rate_age . "'" . ">EDIT</a>" . "</td>";
 
-                        echo "<td  class='border border-slate-300'>" . "<a class='font-bold text-red-800 cursor-pointer'  href=" . "'" . base_url('/ci/public/movie/del_movie') . "?movie_id=" . $movie_id . "'" . ">DEL</a>" . "</td>";
+                        echo "<td  class='border border-slate-300'>" . "<a class='font-bold text-red-800 cursor-pointer'  href=" . "'" . base_url('movie/del_movie') . "?movie_id=" . $movie_id . "'" . ">DEL</a>" . "</td>";
                         echo "</tr>";
                     }
 
@@ -195,44 +198,37 @@ $data_user = $user;
         <div class="flex gap-3">
             <div class="flex items-center w-1/5 justify-between">
                 <label for="movies_select">เลือกหนัง : </label>
-                <select name="movies_select" id="movies_select"
-                    class="ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/4 p-2.5 ">>
+                <select name="movies_select" id="movies_select" class="ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/4 p-2.5 ">>
                     <?php
-                for ($i = 0; $i < count($data_select); $i++) {
-                    $movie_name = $data_select[$i]["movie_name"];
-                    $movie_id = $data_select[$i]["movie_id"];
-                    $duration_min = $data_select[$i]["duration_min"];
-                    echo "<option value='{$movie_id},{$duration_min}' id=select_{$movie_id}>{$movie_name}</option>";
-                }
-                ?>
+                    for ($i = 0; $i < count($data_select); $i++) {
+                        $movie_name = $data_select[$i]["movie_name"];
+                        $movie_id = $data_select[$i]["movie_id"];
+                        $duration_min = $data_select[$i]["duration_min"];
+                        echo "<option value='{$movie_id},{$duration_min}' id=select_{$movie_id}>{$movie_name}</option>";
+                    }
+                    ?>
                 </select>
             </div>
 
             <div class="flex items-center  justify-between ">
                 <label for="movies_select" class="pl-4">วันที่ฉาย :</label>
-                <input type="text" id="datepicker"
-                    class="ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/5 p-2.5 ">
+                <input type="text" id="datepicker" class="ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/5 p-2.5 ">
             </div>
             <div class="flex items-center  justify-between">
                 <label for="time_input" class="pl-4">เวลาเริ่ม</label>
-                <input type="time" id="time_input" name="time_input"
-                    class="ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/5 p-2.5 ">
+                <input type="time" id="time_input" name="time_input" class="ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/5 p-2.5 ">
             </div>
 
             <div class="flex items-center  justify-between">
                 <label for="price" class="pl-4">ราคาตั๋ว</label>
-                <input type="number" id="price" name="price"
-                    class="ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/5 p-2.5 ">
+                <input type="number" min="0" id="price" name="price" class="ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/5 p-2.5 ">
             </div>
             <div class="flex items-center  justify-between">
                 <label for="promotion" class="pl-4">ราคาโปรโมชั่น</label>
-                <input type="number" id="promotion" name="promotion"
-                    class="ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/5 p-2.5 ">
+                <input type="number" min="0" id="promotion" name="promotion" class="ml-2 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-3/5 p-2.5 ">
             </div>
 
-            <button
-                class=" text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
-                onclick="handleAddShowTime()">เพิ่ม</button>
+            <button class=" text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center" onclick="handleAddShowTime()">เพิ่ม</button>
         </div>
 
         <h2 class="text-2xl mt-5 font-normal">รายละเอียดรอบหนัง</h1>
@@ -278,16 +274,15 @@ $data_user = $user;
                     echo "<td class='border border-slate-300'>" . $ticket_prices . "</td>";
                     echo "<td class='border border-slate-300'>" . $ticket_discount . "</td>";
                     echo "<td class='border border-slate-300'>" . $reservation_count . "</td>";
-                    echo "<td class='border border-slate-300'>" . "<a class='font-bold text-orange-400 cursor-pointer' href=" . "'" . base_url('/ci/public/movie/edit_movie_detail') . "?movie_name=" . rawurlencode($movie_name) . "&movie_detail_id=" . $movie_detail_id . "&movie_start=" . rawurlencode($movie_start) .
+                    echo "<td class='border border-slate-300'>" . "<a class='font-bold text-orange-400 cursor-pointer' href=" . "'" . base_url('movie/edit_movie_detail') . "?movie_name=" . rawurlencode($movie_name) . "&movie_detail_id=" . $movie_detail_id . "&movie_start=" . rawurlencode($movie_start) .
                         "&movie_end=" . rawurlencode($movie_end) . "&duration_min=" . $duration_min . "&rate_age=" . $rate_age . "&ticket_prices=" . $ticket_prices . "&ticket_discount=" . $ticket_discount . "'" . ">EDIT</a>" . "</td>";
-                    echo "<td class='border border-slate-300'>" . "<a class='font-bold text-red-800 cursor-pointer' href=" . "'" . base_url('/ci/public/movie/del_movie_detail') . "?movie_detail_id=" . $movie_detail_id . "'" . ">DEL</a>" . "</td>";
+                    echo "<td class='border border-slate-300'>" . "<a class='font-bold text-red-800 cursor-pointer' href=" . "'" . base_url('movie/del_movie_detail') . "?movie_detail_id=" . $movie_detail_id . "'" . ">DEL</a>" . "</td>";
                 }
 
                 ?>
             </table>
 
-            <a class=" text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center"
-                href='logout'>logout</a>
+            <a class=" text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center" href='logout'>logout</a>
     </div>
 </body>
 

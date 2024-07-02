@@ -19,7 +19,7 @@
         <input type="date" name="date_of_birth">
         <input type="submit" value="register">
     </form>
-    <a href="https://8497-2405-9800-bc90-368d-4414-7363-c44f-8f89.ngrok-free.app/ci/public/movie/login">login</a>
+    <a href="login">login</a>
 </body>
 
 </html>

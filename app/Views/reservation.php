@@ -11,6 +11,7 @@ $data_user_id = $user_id;
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reservation</title>
+
     <style>
         table,
         th,
@@ -29,7 +30,7 @@ $data_user_id = $user_id;
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script>
-        function handleSave(movie_detail_id, user_id, final_prices,rate_age) {
+        function handleSave(movie_detail_id, user_id, final_prices, rate_age) {
             event.preventDefault();
             console.log("movie_detail_id >>>", movie_detail_id);
             console.log("user_id >>>", user_id);
@@ -39,7 +40,7 @@ $data_user_id = $user_id;
                 $.ajax({
                     type: "POST",
                     url: "reservation_process",
-                    data: "user_id=" + user_id + "&movie_detail_id=" + movie_detail_id + "&final_prices=" + final_prices+"&rate_age="+rate_age,
+                    data: "user_id=" + user_id + "&movie_detail_id=" + movie_detail_id + "&final_prices=" + final_prices + "&rate_age=" + rate_age,
                     success: function(msg) {
                         const status = confirm(msg + " : ต้องการกลับหน้าหลักหรือไม่")
                         if (status) {
@@ -97,6 +98,8 @@ $data_user_id = $user_id;
 
         ?>
     </table>
+
+    <a class=" text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center" href='login_process'>back</a>
 </body>
 
 </html>

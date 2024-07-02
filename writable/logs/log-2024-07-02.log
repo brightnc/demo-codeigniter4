@@ -1,0 +1,1099 @@
+CRITICAL - 2024-07-02 10:09:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "event_rank.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('event_rank.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 3 APPPATH\Controllers\Event_Rank.php(19): view('event_rank')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 03:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:10:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 10:10:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "event_rank.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('event_rank.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 3 APPPATH\Controllers\Event_Rank.php(19): view('event_rank')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 03:10:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:10:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:10:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:10:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:10:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:12:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:12:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:12:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:12:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:12:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:12:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:14:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:14:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:15:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:16:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:17:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:17:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:17:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:18:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:18:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:18:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:19:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:19:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:20:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:22:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:22:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 03:23:35 --> CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL "localhost:8080/" is not a valid URL.
+in SYSTEMPATH\HTTP\SiteURI.php on line 199.
+ 1 SYSTEMPATH\HTTP\SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+ 2 SYSTEMPATH\HTTP\SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), null, null)
+ 3 SYSTEMPATH\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Event_Rank', null)
+ 4 SYSTEMPATH\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Event_Rank')
+ 5 SYSTEMPATH\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+ 6 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(null, false)
+ 7 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', [...])
+ 8 SYSTEMPATH\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', null)
+ 9 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+10 SYSTEMPATH\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', [])
+11 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+12 SYSTEMPATH\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+13 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+14 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', [...])
+15 SYSTEMPATH\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+16 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+17 SYSTEMPATH\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', [...])
+18 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+19 SYSTEMPATH\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', [...])
+20 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+21 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-02 03:23:35 --> ErrorException: Uncaught CodeIgniter\Exceptions\ConfigException: Config\App::$baseURL "localhost:8080/" is not a valid URL. in C:\xampp\htdocs\ci\system\HTTP\SiteURI.php:199
+Stack trace:
+#0 C:\xampp\htdocs\ci\system\HTTP\SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xampp\htdocs\ci\system\HTTP\SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xampp\htdocs\ci\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Event_Rank', NULL)
+#3 C:\xampp\htdocs\ci\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Event_Rank')
+#4 C:\xampp\htdocs\ci\system\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xampp\htdocs\ci\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xampp\htdocs\ci\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xampp\htdocs\ci\system\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xampp\htdocs\ci\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xampp\htdocs\ci\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xampp\htdocs\ci\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xampp\htdocs\ci\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#12 C:\xampp\htdocs\ci\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(NULL, false)
+#13 C:\xampp\htdocs\ci\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#14 C:\xampp\htdocs\ci\system\Config\Services.php(520): CodeIgniter\Config\BaseService::getSharedInstance('request', NULL)
+#15 C:\xampp\htdocs\ci\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request()
+#16 C:\xampp\htdocs\ci\system\Debug\Exceptions.php(150): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#17 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\ConfigException))
+#18 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\ConfigException
+Config\App::$baseURL "localhost:8080/" is not a valid URL.
+#0 C:\xampp\htdocs\ci\system\HTTP\SiteURI.php(145): CodeIgniter\HTTP\SiteURI->normalizeBaseURL(Object(Config\App))
+#1 C:\xampp\htdocs\ci\system\HTTP\SiteURI.php(100): CodeIgniter\HTTP\SiteURI->determineBaseURL(Object(Config\App), NULL, NULL)
+#2 C:\xampp\htdocs\ci\system\HTTP\SiteURIFactory.php(224): CodeIgniter\HTTP\SiteURI->__construct(Object(Config\App), 'Event_Rank', NULL)
+#3 C:\xampp\htdocs\ci\system\HTTP\SiteURIFactory.php(45): CodeIgniter\HTTP\SiteURIFactory->createURIFromRoutePath('Event_Rank')
+#4 C:\xampp\htdocs\ci\system\Config\Services.php(799): CodeIgniter\HTTP\SiteURIFactory->createFromGlobals()
+#5 C:\xampp\htdocs\ci\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri(NULL, false)
+#6 C:\xampp\htdocs\ci\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#7 C:\xampp\htdocs\ci\system\Config\Services.php(792): CodeIgniter\Config\BaseService::getSharedInstance('uri', NULL)
+#8 C:\xampp\htdocs\ci\system\Config\BaseService.php(258): CodeIgniter\Config\Services::uri()
+#9 C:\xampp\htdocs\ci\system\Config\Services.php(566): CodeIgniter\Config\BaseService::__callStatic('uri', Array)
+#10 C:\xampp\htdocs\ci\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App), false)
+#11 C:\xampp\htdocs\ci\system\Config\Services.php(524): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#12 C:\xampp\htdocs\ci\system\Config\BaseService.php(258): CodeIgniter\Config\Services::request(Object(Config\App), false)
+#13 C:\xampp\htdocs\ci\system\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('request', Array)
+#14 C:\xampp\htdocs\ci\system\Config\Services.php(559): CodeIgniter\Config\BaseService::getSharedInstance('request', Object(Config\App))
+#15 C:\xampp\htdocs\ci\system\Config\BaseService.php(258): CodeIgniter\Config\Services::incomingrequest(Object(Config\App))
+#16 C:\xampp\htdocs\ci\system\Config\Services.php(539): CodeIgniter\Config\BaseService::__callStatic('incomingrequest', Array)
+#17 C:\xampp\htdocs\ci\system\Config\BaseService.php(258): CodeIgniter\Config\Services::createRequest(Object(Config\App))
+#18 C:\xampp\htdocs\ci\system\CodeIgniter.php(655): CodeIgniter\Config\BaseService::__callStatic('createRequest', Array)
+#19 C:\xampp\htdocs\ci\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->getRequestObject()
+#20 C:\xampp\htdocs\ci\public\index.php(84): CodeIgniter\CodeIgniter->run()
+#21 {main}
+in SYSTEMPATH\HTTP\SiteURI.php on line 199.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-07-02 03:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:23:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:24:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:25:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:25:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:25:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:27:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:27:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:27:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:28:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:28:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:29:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:29:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:29:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:31:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:39:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:39:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:40:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:40:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:40:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:47:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:49:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:50:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:50:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:50:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:51:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:51:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:51:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:52:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:52:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:52:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:52:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:52:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:52:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:53:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:54:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:54:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:54:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:54:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:55:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:55:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:55:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:55:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:55:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:55:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:55:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:56:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:56:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:56:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:56:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:56:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:56:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:57:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:57:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:57:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:57:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:58:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:58:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:58:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:58:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 03:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 03:59:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:00:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:00:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:00:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:01:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:01:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:01:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:01:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:01:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:02:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:02:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:02:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:02:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:02:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:02:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:13:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:16:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:16:00 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:16:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:16:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:16:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:17:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:17:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:17:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:17:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:17:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:18:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:18:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:18:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:18:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:19:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:19:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:19:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:19:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:19:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:19:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:21:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:21:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:22:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:25:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 11:25:30 --> ErrorException: Undefined array key "more_data"
+in APPPATH\Views\event_rank.php on line 5.
+ 1 APPPATH\Views\event_rank.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "more_data"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 5)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(38): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 04:25:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:25:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:26:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:26:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:27:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:27:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:27:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:29:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:30:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:30:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:30:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:30:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:31:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:31:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:34:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:34:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:35:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:35:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:35:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:35:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:37:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:37:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:37:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:43:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:45:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:45:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:46:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:46:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:46:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:46:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:46:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 11:46:53 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH\Controllers\Event_Rank.php on line 36.
+ 1 APPPATH\Controllers\Event_Rank.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Event_Rank.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 04:49:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:49:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 11:49:03 --> ErrorException: Undefined array key "more_data"
+in APPPATH\Views\event_rank.php on line 4.
+ 1 APPPATH\Views\event_rank.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "more_data"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(44): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 04:50:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:50:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:50:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:50:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:51:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:51:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:51:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:51:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:52:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:52:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:53:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:53:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:53:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:55:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:55:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 11:55:59 --> ErrorException: Undefined array key "more_data"
+in APPPATH\Views\event_rank.php on line 4.
+ 1 APPPATH\Views\event_rank.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "more_data"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(45): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 04:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:56:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 04:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 04:56:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 05:02:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 05:02:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 12:02:13 --> ErrorException: Undefined variable $DateThai
+in APPPATH\Views\event_rank.php on line 106.
+ 1 APPPATH\Views\event_rank.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $DateThai', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 106)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(45): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 05:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 05:02:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 05:29:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 05:29:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 05:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 05:31:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 05:32:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 05:32:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 05:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 05:32:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 05:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 05:35:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 05:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 05:35:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 05:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 05:35:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:11:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:11:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:19:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:19:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:19:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:19:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:20:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:21:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:21:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:22:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:22:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:22:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:22:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:22:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:22:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:22:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:23:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:23:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:23:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:24:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:25:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:25:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:25:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:27:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:28:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:28:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:28:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:44:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:45:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:45:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:45:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:45:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 06:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 06:45:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:16:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:17:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:18:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:18:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 14:18:46 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in APPPATH\Views\event_rank.php on line 95.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-02 14:18:53 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in APPPATH\Views\event_rank.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-02 14:20:03 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in APPPATH\Views\event_rank.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-07-02 07:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:20:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:20:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:20:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:20:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:20:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:20:05 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:20:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:20:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:20:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 14:22:31 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in APPPATH\Views\event_rank.php on line 93.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-02 14:22:35 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in APPPATH\Views\event_rank.php on line 96.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-07-02 07:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:22:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:22:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:22:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:22:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:22:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:22:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 14:24:55 --> ErrorException: Maximum execution time of 120 seconds exceeded
+in APPPATH\Views\event_rank.php on line 97.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-07-02 07:24:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:24:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:24:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:24:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 07:24:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 07:24:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 15:20:02 --> ErrorException: Undefined array key "more_data"
+in APPPATH\Views\event_rank.php on line 4.
+ 1 APPPATH\Views\event_rank.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "more_data"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(45): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-02 15:20:32 --> ErrorException: Undefined array key "more_data"
+in APPPATH\Views\event_rank.php on line 4.
+ 1 APPPATH\Views\event_rank.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "more_data"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(45): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-02 15:21:03 --> ErrorException: Undefined array key "more_data"
+in APPPATH\Views\event_rank.php on line 4.
+ 1 APPPATH\Views\event_rank.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "more_data"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(45): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 08:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:21:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 15:21:19 --> ErrorException: Undefined array key "more_data"
+in APPPATH\Views\event_rank.php on line 4.
+ 1 APPPATH\Views\event_rank.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "more_data"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 4)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(45): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 08:22:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:22:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 15:22:07 --> ParseError: syntax error, unexpected token ";"
+in APPPATH\Views\event_rank.php on line 8.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 3 APPPATH\Controllers\Event_Rank.php(45): view('event_rank', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 08:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:22:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:22:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 15:22:33 --> ErrorException: Undefined array key "more_data"
+in APPPATH\Views\event_rank.php on line 8.
+ 1 APPPATH\Views\event_rank.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "more_data"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 8)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(45): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 08:22:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:22:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:23:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:23:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:23:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:23:22 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:23:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:27:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 15:27:28 --> Error: Call to undefined function DateThai()
+in APPPATH\Views\event_rank.php on line 94.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 4 APPPATH\Controllers\Event_Rank.php(46): view('event_rank', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-02 15:27:52 --> Error: Call to undefined function DateThai()
+in APPPATH\Views\event_rank.php on line 94.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 4 APPPATH\Controllers\Event_Rank.php(46): view('event_rank', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-02 15:27:54 --> Error: Call to undefined function DateThai()
+in APPPATH\Views\event_rank.php on line 94.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 4 APPPATH\Controllers\Event_Rank.php(46): view('event_rank', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-02 15:27:55 --> Error: Call to undefined function DateThai()
+in APPPATH\Views\event_rank.php on line 94.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 4 APPPATH\Controllers\Event_Rank.php(46): view('event_rank', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-02 15:27:56 --> Error: Call to undefined function DateThai()
+in APPPATH\Views\event_rank.php on line 94.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 4 APPPATH\Controllers\Event_Rank.php(46): view('event_rank', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 08:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:28:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:28:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:29:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:30:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:30:44 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:31:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:31:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:31:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:32:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:32:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:33:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:33:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:33:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:34:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:36:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:36:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:36:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:36:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:36:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:59:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:59:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 08:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 08:59:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:00:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:00:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:00:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:00:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:00:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:01:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:01:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:01:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:02:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:02:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:03:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:03:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:04:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:05:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:05:54 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:06:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:06:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:11:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:11:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 16:11:33 --> ErrorException: Undefined variable $top_1
+in APPPATH\Views\event_rank.php on line 58.
+ 1 APPPATH\Views\event_rank.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $top_1', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 58)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(38): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 09:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:11:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:12:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:12:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:22:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:23:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:23:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:23:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:23:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:23:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:54:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:54:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:55:02 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:55:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:55:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:55:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:55:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:55:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:56:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 16:56:06 --> ErrorException: Undefined array key "user_id"
+in APPPATH\Views\event_rank.php on line 3.
+ 1 APPPATH\Views\event_rank.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 3)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(38): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 09:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:56:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:57:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:58:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 09:59:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 09:59:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:00:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:00:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:00:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:00:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:00:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:00:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:00:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:00:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:00:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:00:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:01:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:01:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:01:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:01:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:01:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:02:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:02:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:03:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:03:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:03:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:03:30 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:03:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:04:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:05:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:05:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:05:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:05:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:05:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:06:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:06:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:06:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:06:51 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:07:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:07:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:07:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:07:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:08:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:08:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:08:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:08:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:08:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:08:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:09:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:09:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:10:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:10:34 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:11:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:12:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:14:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:14:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:14:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:15:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:16:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:16:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:16:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:16:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:16:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:16:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:16:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:16:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:17:00 --> Error: Cannot use object of type stdClass as array
+in APPPATH\Views\event_rank.php on line 30.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 4 APPPATH\Controllers\Event_Rank.php(40): view('event_rank', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:17:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:17:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:17:35 --> ErrorException: Undefined array key "updatetime"
+in APPPATH\Views\event_rank.php on line 91.
+ 1 APPPATH\Views\event_rank.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "updatetime"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 91)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(40): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:18:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:18:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:18:16 --> Error: Call to undefined function DateThai()
+in APPPATH\Views\event_rank.php on line 91.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 4 APPPATH\Controllers\Event_Rank.php(40): view('event_rank', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:18:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:18:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:18:19 --> Error: Call to undefined function DateThai()
+in APPPATH\Views\event_rank.php on line 91.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 4 APPPATH\Controllers\Event_Rank.php(40): view('event_rank', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:18:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:18:52 --> ErrorException: Undefined array key "updatetime"
+in APPPATH\Views\event_rank.php on line 123.
+ 1 APPPATH\Views\event_rank.php(123): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "updatetime"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 123)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(40): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:19:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:19:03 --> ErrorException: Undefined array key 19
+in APPPATH\Views\event_rank.php on line 120.
+ 1 APPPATH\Views\event_rank.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 19', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 120)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(40): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:20:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:20:08 --> ErrorException: Undefined array key 19
+in APPPATH\Views\event_rank.php on line 120.
+ 1 APPPATH\Views\event_rank.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 19', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 120)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(40): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:20:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:20:37 --> ErrorException: Attempt to read property "user_id" on array
+in APPPATH\Views\event_rank.php on line 120.
+ 1 APPPATH\Views\event_rank.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on array', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 120)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(40): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:20:40 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:20:40 --> ErrorException: Attempt to read property "user_id" on array
+in APPPATH\Views\event_rank.php on line 120.
+ 1 APPPATH\Views\event_rank.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "user_id" on array', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 120)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(40): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:21:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:21:25 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:21:26 --> ErrorException: Undefined array key 19
+in APPPATH\Views\event_rank.php on line 120.
+ 1 APPPATH\Views\event_rank.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 19', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php', 120)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_rank.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_rank', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(40): view('event_rank', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:21:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:22:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:24:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:25:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:27:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:27:07 --> ErrorException: Undefined array key 19
+in APPPATH\Views\event_gift.php on line 107.
+ 1 APPPATH\Views\event_gift.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 19', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_gift.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_gift.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_gift', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(65): view('event_gift', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->gift_event()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:27:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:27:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:28:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:28:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:28:24 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:28:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:28:50 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:29:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:29:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:29:29 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:29:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:29:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:29:56 --> ErrorException: Undefined array key 19
+in APPPATH\Views\event_gift.php on line 108.
+ 1 APPPATH\Views\event_gift.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 19', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_gift.php', 108)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_gift.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_gift', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(65): view('event_gift', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->gift_event()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:31:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:31:04 --> ErrorException: Undefined array key 19
+in APPPATH\Views\event_gift.php on line 107.
+ 1 APPPATH\Views\event_gift.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 19', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_gift.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_gift.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_gift', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(65): view('event_gift', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->gift_event()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:31:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:31:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:31:45 --> ErrorException: Undefined array key 19
+in APPPATH\Views\event_gift.php on line 107.
+ 1 APPPATH\Views\event_gift.php(107): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 19', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_gift.php', 107)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_gift.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_gift', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(65): view('event_gift', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->gift_event()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:32:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:32:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:34:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:34:15 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:34:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:34:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:34:55 --> ErrorException: Undefined array key 19
+in APPPATH\Views\event_gift.php on line 106.
+ 1 APPPATH\Views\event_gift.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 19', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_gift.php', 106)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_gift.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_gift', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(65): view('event_gift', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->gift_event()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:35:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:35:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:35:09 --> ErrorException: Undefined array key "user_id"
+in APPPATH\Views\event_gift.php on line 106.
+ 1 APPPATH\Views\event_gift.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "user_id"', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_gift.php', 106)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_gift.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_gift', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(65): view('event_gift', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->gift_event()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:35:41 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-02 17:35:41 --> ErrorException: Undefined array key 19
+in APPPATH\Views\event_gift.php on line 106.
+ 1 APPPATH\Views\event_gift.php(106): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 19', 'C:\\xampp\\htdocs\\ci\\app\\Views\\event_gift.php', 106)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\ci\\app\\Views\\event_gift.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('event_gift', [], true)
+ 5 APPPATH\Controllers\Event_Rank.php(65): view('event_gift', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->gift_event()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-02 10:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:36:35 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:39:11 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:40:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:44:04 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:44:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:44:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:44:59 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:45:36 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:45:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:46:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:46:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-02 10:47:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-02 10:47:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
