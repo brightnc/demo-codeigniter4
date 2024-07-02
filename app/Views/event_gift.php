@@ -152,7 +152,7 @@
 
                             </div>";
                         echo "</td>";
-                        if ($count_gift > 100) {
+                        if ($count_gift >= 100) {
                             echo "<td  class=' text-black'>";
                             echo "<div class='flex flex-col items-center text-black py-3'>
                            
