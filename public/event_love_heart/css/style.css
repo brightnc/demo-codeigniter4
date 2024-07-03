@@ -12,38 +12,15 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "Meiryo UI W53 Regular";
-  src: url("../fonts/Meiryo UI W53 Regular.eot");
-  src: url("../fonts/Meiryo UI W53 Regular.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/Meiryo UI W53 Regular.woff") format("woff"),
-    url("../fonts/Meiryo UI W53 Regular.ttf") format("truetype"),
-    url("../fonts/Meiryo UI W53 Regular.svg#thaisans_neueregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "BeVietnam-Bold";
-  src: url("../fonts/BeVietnam-Bold.eot");
-  src: url("../fonts/BeVietnam-Bold.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/BeVietnam-Bold.woff") format("woff"),
-    url("../fonts/BeVietnam-Bold.ttf") format("truetype"),
-    url("../fonts/BeVietnam-Bold.svg#thaisans_neueregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
   margin: 0px;
   padding: 0px;
   font-family: Tahoma, Geneva, sans-serif;
-  background: url("../images/bg1.jpg") no-repeat center top fixed #fff;
+  background: url("../images/bg1.jpg") no-repeat center top fixed #e43b73;
 }
 
 h.a1 {
-  font-size: 44px;
+  font-size: 50px;
   color: #ffea00;
   font-weight: 700;
   text-decoration: underline;
@@ -51,23 +28,9 @@ h.a1 {
   font-family: "PSL162";
 } /* topic 01 */
 h.a2 {
-  font-size: 34px;
+  font-size: 40px;
   color: #ffea00;
   font-family: "PSL162";
-} /* topic 02 */
-h.a1jp,
-h.a1vn {
-  font-size: 30px;
-  color: #ffea00;
-  font-weight: 700;
-  text-decoration: underline;
-  text-decoration-style: wavy;
-} /* topic 01 */
-h.a2jp,
-h.a2vn {
-  font-size: 22px;
-  color: #ffea00;
-  font-weight: 600;
 } /* topic 02 */
 
 a:link {
@@ -131,7 +94,7 @@ img {
   text-align: center;
   color: #fff;
   font-size: 14px;
-  background: #7d19e9;
+  background: #9b0235;
   padding: 30px;
 }
 
@@ -228,10 +191,10 @@ img {
   cursor: pointer;
   box-shadow: 5px 5px 15px 1px rgba(50, 50, 50, 0.4);
 }
+
 .bt-rank:hover {
   opacity: 0.5;
 }
-
 .visible {
   display: none;
 }
@@ -247,13 +210,12 @@ img {
 }
 
 table {
-  width: 80%;
+  width: 75%;
   border-collapse: collapse;
   font-size: 16px;
   margin-bottom: 20px;
-  background: #ffb612;
-  border: #000 solid 1px;
-  color: #000;
+  border: solid;
+  color: #fff;
   margin: 16px auto;
 }
 
@@ -261,11 +223,10 @@ th,
 td {
   text-align: center;
   padding: 8px;
-  border: 1px solid #000;
+  border: 1px solid #fff;
 }
 
 th {
-  background-color: #ed1e3c;
   color: white;
 }
 
@@ -297,14 +258,10 @@ th {
 /* End table */
 
 @media screen and (max-width: 900px) {
-  h.a1,
-  h.a1jp,
-  h.a1vn {
+  h.a1 {
     font-size: 34px;
   }
-  h.a2,
-  h.a2jp,
-  h.a2vn {
+  h.a2 {
     font-size: 30px;
   }
   .section1 {
@@ -322,23 +279,6 @@ th {
   table {
     width: 100%;
   }
-  h.a1 {
-    font-size: 30px;
-  }
-  h.a2 {
-    font-size: 26px;
-  }
-  h.a1jp,
-  h.a1vn {
-    font-size: 26px;
-  }
-  h.a2jp,
-  h.a2vn {
-    font-size: 22px;
-  }
-  .bt-rank {
-    width: 80%;
-  }
   .box-table {
     width: auto;
   }
@@ -350,7 +290,7 @@ th {
     height: auto;
   }
   .sub-rank2 {
-    width: 100%;
+    width: 35%;
     height: auto;
     padding: 5px;
     flex-direction: column;
@@ -379,31 +319,18 @@ th {
   table {
     width: 100%;
   }
-  h.a1 {
-    font-size: 30px;
-  }
-  h.a2 {
-    font-size: 26px;
-  }
-  h.a1jp,
-  h.a1vn {
-    font-size: 26px;
-  }
-  h.a2jp,
-  h.a2vn {
-    font-size: 22px;
-  }
-  .bt-rank {
-    width: 80%;
+  th,
+  td {
+    padding: 2px;
   }
   .box-table {
-    width: 100%;
+    width: auto;
   }
   .box-rank {
     width: auto;
   }
   .sub-rank2 {
-    width: 100%;
+    width: 35%;
     height: auto;
     padding: 4px;
     flex-direction: column;

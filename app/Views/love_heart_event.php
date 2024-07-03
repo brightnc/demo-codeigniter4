@@ -32,10 +32,6 @@ if (false !== ($pos = array_search2d($searchTerm, $data_arr))) {
 $top_1 = $data_arr[0];
 $top_2 = $data_arr[1];
 $top_3 = $data_arr[2];
-
-$start =  DateThai($top_1["startdate"]);
-$end =  DateThai($top_1["enddate"]);
-
 function DateThai($strDate)
 {
     $strYear = date("Y", strtotime($strDate)) + 543;
@@ -43,15 +39,16 @@ function DateThai($strDate)
     $strDay = date("j", strtotime($strDate));
     $strHour = date("H", strtotime($strDate));
     $strMinute = date("i", strtotime($strDate));
-    // $strSeconds = date("s", strtotime($strDate));
+    $strSeconds = date("s", strtotime($strDate));
     $strMonthCut = array("", "มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน", "พฤษภาคม", "มิถุนายน", "กรกฏาคม", "สิงหาคม", "กันยายน", "ตุลาคม", "พฤศจิกายน", "ธันวาคม");
 
 
     $strMonthThai = $strMonthCut[$strMonth];
-    return "$strDay $strMonthThai $strYear  ( $strHour:$strMinute น.)";
+    return "$strDay $strMonthThai $strYear  $strHour:$strMinute:$strSeconds";
 }
 
 ?>
+
 
 
 <!DOCTYPE html
@@ -60,12 +57,12 @@ function DateThai($strDate)
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>TakeMe</title>
+    <title>CallPlay</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
 
-    <link rel="stylesheet" href="<?php echo base_url("/ci/public/css/style.css"); ?>">
+    <link rel="stylesheet" href="<?php echo base_url("/ci/public/event_love_heart/css/style.css"); ?>">
     <script>
     function handleClick() {
         event.preventDefault()
@@ -73,7 +70,6 @@ function DateThai($strDate)
         t.classList.toggle("visible");
     }
     </script>
-
 </head>
 
 <body>
@@ -82,15 +78,16 @@ function DateThai($strDate)
 
         <div class="section1">
 
-            <div class="pic-top"><img src="<?php echo base_url("/ci/public/images/pic-top.jpg"); ?>" /></div>
+            <div class="pic-top"><img src="<?php echo base_url("/ci/public/event_love_heart/images/pic-top.jpg"); ?>" />
+            </div>
 
             <div class="content">
 
                 <h class="a2">
-                    ไลฟ์เช้ารับปอง
-                </h>
-                <br /><br />
+                    เติมคูปองครั้งแรกรับยศ LOVE HEART<br />
 
+                </h>
+                <br />
                 <div class="box-rank">
                     <div class="sub-rank">
                         <div class="rank1">
@@ -131,20 +128,20 @@ function DateThai($strDate)
                         <tr>
                             <th>ลำดับ</th>
                             <th>ข้อมูล user</th>
-                            <th>รางวัล</th>
+                            <th>เวลาที่อัพเดทล่าสุด</th>
 
                         </tr>
 
                         <?php
 
-                        $counter = count($data_arr);
                         $rank = 0;
-                        for ($i = 0; $i < $counter; $i++) {
+                        for ($i = 0; $i < 30; $i++) {
                             # code...
                             $user_id = $data_arr[$i]["user_id"];
                             $user_name = $data_arr[$i]["user_name"];
                             $user_logo = $data_arr[$i]["user_logo"];
-                            $count_gift = $data_arr[$i]["count_gift"];
+                            $updateTime = $data_arr[$i]["updatetime"];
+                            $date_thai = DateThai($updateTime);
 
                             $rank++;
 
@@ -178,20 +175,8 @@ function DateThai($strDate)
 
                             </div>";
                             echo "</td>";
-                           $point_f =  number_format($count_gift);
-                            if ($count_gift >= 100) {
-                                echo "<td >";
-                                echo "<div >
-                           
-                    <p>ได้รับรางวัล</p>
-                    <p>คะแนน: $point_f</p>
 
-                        </div>";
-                                echo "</td>";
-                            } else {
-                                echo "<td >" . "" . "</td>";
-                            }
-
+                            echo "<td  class=' text-black'>" . $date_thai . "</td>";
 
                             echo "</tr>";
                         }
@@ -201,53 +186,49 @@ function DateThai($strDate)
                     </table>
                 </div>
 
-
-                <h class="a1">ระยะเวลากิจกรรม</h>
+                <h class="a1">ระยะเวลากิจกรรม
+                </h>
                 <br />
-                วันที่ <?= $start ?> – <?= $end ?>
-                <br /><br />
-
-                <h class="a1">รายละเอียดกิจกรรม VJ
-                </h><br />
-                ➤ ในช่วงเวลากิจกรรมวีเจที่เวลาไลฟ์มากที่สุดจะได้รับรางวัล<br />
-                ➤ วีเจจะต้องออนไลน์ในช่วงเวลากิจกรรม 06.00 - 13.00 น.<br />
-                อย่างน้อยวันละ 1 ชม. ขั้นต่ำรวม 5 วัน<br />
-                ➤ ต้องมีของขวัญ Good Morning <font color="#FFFF00">2,000</font> ชิ้น<br />
-                ➤ วีเจทำผิดกฏถูกปิดห้องไลฟ์ครบ 3 ครั้งจะไม่ได้รับรางวัล<br />
-                ➤ ไลฟ์ล็อคห้องจะไม่นับเวลาไลฟ์กิจกรรม<br />
+                3 ก.ค. 67 เวลา 10.00 น. – 12 ก.ค. 67 เวลา 23.59 น.<br />
                 <br />
 
-                <img src="<?php echo base_url("/ci/public/images/01.png"); ?>" />
-                <br />
-                Good Morning 20 คูปอง<br />
-                ได้รับ 2 คูปอง ต่อชิ้น<br />
+                <h class="a2">รางวัลโปรโมชั่น
+                </h>
                 <br />
 
-                <h class="a1">รางวัลกิจกรรม VJ
-                </h><br />
-                อันดับ 1-5 - รับรางวัล 20,000 คูปอง<br />
+                <br />
+                <img src="<?php echo base_url("/ci/public/event_love_heart/images/01.png"); ?>" />
+                <br />
+                <img src="<?php echo base_url("/ci/public/event_love_heart/images/02.png"); ?>" />
+                <br />
+                ยศพิเศษ Love Heart 15 วัน<br />
+                เมื่อเติมคูปองขั้นต่ำ 5,000 คูปองขึ้นไป<br />
                 <br />
 
-                <h class="a2">รวมรางวัล 100,000 คูปอง
-                </h><br />
+                <h class="a1">เงื่อนไขกิจกรรม
+                </h>
+                <br />
+                - ต้องเป็นไอดีที่ไม่เคยเติมเงินมาก่อน<br />
+                - เติมเงินครั้งแรกในช่วงกิจกรรม 5,000 คูปอง ขึ้นไป (ไม่นับสะสม)<br />
+                - จำกัด 1 ไอดีมีสิทธิ์ 1 ครั้ง<br />
+                - ยศพิเศษกดรับได้หลังกิจกรรมจบ จนถึงวันที่ 15 ก.ค. 67 (23.59น.)<br />
                 <br />
 
             </div><!-- /content -->
 
             <div class="note">
                 <font size="+2">หมายเหตุ</font><br />
-                ➤ สอบถามข้อมูลและแจ้งปัญหาติดต่อ <br />
-                LINE: @takemeclub / Fb: @TakeMeFanClub<br />
-                ➤ ทีมงานจะตรวจสอบรางวัลให้ภายใน 5-7 วันทำการหลังจบกิจกรรม<br />
-                ➤ กิจกรรมใดที่จัดอยู่ในช่วงเวลาปิดเซิร์ฟเวอร์<br />
-                หรือเหตุใดๆที่ทำให้ไม่สามารถออนไลน์ได้จะยึดเวลาจบกิจกรรมตามเดิม<br />
-                ➤ อันดับและเวลาอ้างอิงตาม Server เป็นหลัก<br />
-                ➤ ขอสงวนสิทธิ์การเปลี่ยนแปลงรายละเอียด<br />
+                - ต้องเติมเงินขั้นต่ำ 5,000 คูปอง ขึ้นไป<br />
+                - ทีมงานขอสงวนสิทธิ์การเติมเงินผ่านช่องทาง Goldman<br />
+                และแลกเปลี่ยน THC เป็นคูปองจะไม่สามารถเข้าร่วมโปรโมชั่นนี้ได้<br />
+                หากไม่กดรับภายในเวลาดังกล่าวจะถือว่าสละสิทธิ์โดยทันที<br />
+                - เวลาอ้างอิงตามเวลาของ Server เป็นหลัก<br />
+                - การตัดสินของทีมงานถือเป็นที่สิ้นสุด<br />
+                - ขอสงวนสิทธิ์ในการเปลี่ยนแปลงหากเกิดปัญหา<br />
                 โดยไม่ต้องแจ้งให้ทราบล่วงหน้า<br />
-                ➤ คำตัดสินของทีมงานถือว่าเป็นที่สิ้นสุด<br />
+                - กิจกรรมใดที่จัดอยู่ในช่วงเวลาปิดเซิร์ฟเวอร์หรือเหตุใดๆที่<br />
+                ทำให้ไม่สามารถออนไลน์ได้จะยึดเวลาจบกิจกรรมตามเดิม<br />
                 <br />
-                <b>Sponsor by WinNine Pacific : <a href="https://winnine.com.au/main.php"
-                        target="_blank">winnine.com.au</a></b><br />
 
             </div><!-- /note -->
 

@@ -70,4 +70,36 @@ class Event_Rank extends BaseController
 
         return view("live_event", $data);
     }
+
+    public function love_heart_event()
+    {
+        $url = "https://takeme.la/tikky_training/tikky_api";
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "GET");
+
+        $headers = array();
+        $headers[] = "Content-Type: application/json";
+        curl_setopt($ch, CURLOPT_HTTPHEADER, $headers);
+
+        $result = curl_exec($ch);
+        if (curl_errno($ch)) {
+            echo 'Error:' . curl_error($ch);
+        }
+        curl_close($ch);
+
+        $res_arr = json_decode($result, true);
+
+        $data["data"] =  $res_arr;
+
+        if (isset($_GET['lang'])) {
+            if ($_GET['lang'] == "eng") {
+                return view("love_heart_event_eng", $data);
+            }
+        }
+
+
+        return view("love_heart_event", $data);
+    }
 }

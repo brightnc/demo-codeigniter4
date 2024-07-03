@@ -38,23 +38,25 @@ $end =  DateEng($top_1["enddate"]);
 
 function DateEng($strDate)
 {
-    $strYear = date("Y", strtotime($strDate)) + 543;
+    $strYear = date("Y", strtotime($strDate)) ;
     $strMonth = date("n", strtotime($strDate));
     $strDay = date("j", strtotime($strDate));
     $strHour = date("H", strtotime($strDate));
     $strMinute = date("i", strtotime($strDate));
-    $strMonthCut = array("", "มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน", "พฤษภาคม", "มิถุนายน", "กรกฏาคม", "สิงหาคม", "กันยายน", "ตุลาคม", "พฤศจิกายน", "ธันวาคม");
+    $time = date("A", strtotime($strDate));
+    $dateObj   = DateTime::createFromFormat('!m', $strMonth);
 
+    $monthName = $dateObj->format('F');
 
-    $strMonthEng = $strMonthCut[$strMonth];
-    return "$strDay $strMonthEng $strYear  ( $strHour:$strMinute น.)";
+    return "$strDay $monthName  $strYear  ( $strHour:$strMinute $time)";
 }
 
 ?>
 
 
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -63,13 +65,13 @@ function DateEng($strDate)
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
-    <link rel="stylesheet" href="<?php echo base_url("/eng/css/style1.css"); ?>">
+    <link rel="stylesheet" href="<?php echo base_url("/ci/public/eng/css/style1.css"); ?>">
     <script>
-        function handleClick() {
-            event.preventDefault()
-            const t = document.getElementById("table_data");
-            t.classList.toggle("visible");
-        }
+    function handleClick() {
+        event.preventDefault()
+        const t = document.getElementById("table_data");
+        t.classList.toggle("visible");
+    }
     </script>
 
 </head>
@@ -80,7 +82,7 @@ function DateEng($strDate)
 
         <div class="section1">
 
-            <div class="pic-top"><img src="<?php echo base_url("eng/images/pic-top.jpg"); ?>" /></div>
+            <div class="pic-top"><img src="<?php echo base_url("/ci/public/eng/images/pic-top.jpg"); ?>" /></div>
 
             <div class="content">
 
@@ -174,12 +176,13 @@ function DateEng($strDate)
 
                             </div>";
                             echo "</td>";
+                            $point_f =  number_format($count_gift);
                             if ($count_gift >= 100) {
                                 echo "<td >";
                                 echo "<div >
                            
                     <p>rewarded</p>
-                    <p>points : $count_gift</p>
+                    <p>points : $point_f</p>
 
                         </div>";
                                 echo "</td>";
@@ -214,7 +217,7 @@ function DateEng($strDate)
                 ➤ Lock session will not count for cumulate time.<br />
                 <br />
 
-                <img src="<?php echo base_url("eng/images/01.png"); ?>" />
+                <img src="<?php echo base_url("/ci/public/eng/images/01.png"); ?>" />
                 <br />
                 Good Morning 20 coupons<br />
                 will receive 2 Coupons/piece<br />
@@ -246,12 +249,14 @@ function DateEng($strDate)
                 the event details without prior notice.<br />
                 ➤ The staff’s decision is final.<br />
                 <br />
-                <b>Sponsor by WinNine Pacific : <a href="https://winnine.com.au/main.php" target="_blank">winnine.com.au</a></b><br />
+                <b>Sponsor by WinNine Pacific : <a href="https://winnine.com.au/main.php"
+                        target="_blank">winnine.com.au</a></b><br />
 
 
             </div><!-- /note -->
 
-            <div class="foot">WinNine Pacific Pty Ltd Level 20, Zenith Center, 821 Pacific Hwy, Chatswood NSW 2067 Australia</div>
+            <div class="foot">WinNine Pacific Pty Ltd Level 20, Zenith Center, 821 Pacific Hwy, Chatswood NSW 2067
+                Australia</div>
 
         </div><!-- /section1 -->
 
