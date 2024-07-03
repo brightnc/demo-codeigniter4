@@ -41,6 +41,20 @@
 
 
             $data_arr = $data["more_data"];
+            function array_search2d($needle, $haystack)
+            {
+                for ($i = 0, $l = count($haystack); $i < $l; ++$i) {
+                    if (in_array($needle, $haystack[$i])) return $i;
+                }
+                return false;
+            }
+
+            $searchTerm = "100030652";
+
+            if (false !== ($pos = array_search2d($searchTerm, $data_arr))) {
+                array_splice($data_arr, $pos, 1);
+            }
+
             $top_1 = $data_arr[0];
             $top_2 = $data_arr[1];
             $top_3 = $data_arr[2];
@@ -128,10 +142,10 @@
                         $count_gift = $data_arr[$i]["count_gift"];
 
 
-                        if ($user_id == "100030652") {
-                            $counter++;
-                            continue;
-                        }
+                        // if ($user_id == "100030652") {
+                        //     $counter++;
+                        //     continue;
+                        // }
                         $rank++;
 
                         if ($rank % 2 !== 0) {

@@ -39,7 +39,7 @@ class Event_Rank extends BaseController
 
         return view("event_rank", $data);
     }
-    public function gift_event()
+    public function live_event()
     {
         $url = "https://takeme.la/manual_info/list_rank_training/";
         $ch = curl_init();
@@ -61,7 +61,13 @@ class Event_Rank extends BaseController
 
         $data["data"] =  $res_arr;
 
+        if (isset($_GET['lang'])) {
+            if ($_GET['lang'] == "eng") {
+                return view("live_event_eng", $data);
+            }
+        }
 
-        return view("event_gift", $data);
+
+        return view("live_event", $data);
     }
 }
