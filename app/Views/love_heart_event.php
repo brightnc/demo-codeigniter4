@@ -51,8 +51,7 @@ function DateThai($strDate)
 
 
 
-<!DOCTYPE html
-    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -62,13 +61,13 @@ function DateThai($strDate)
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
 
-    <link rel="stylesheet" href="<?php echo base_url("/ci/public/event_love_heart/css/style.css"); ?>">
+    <link rel="stylesheet" href="<?php echo base_url("/event_love_heart/css/style.css"); ?>">
     <script>
-    function handleClick() {
-        event.preventDefault()
-        const t = document.getElementById("table_data");
-        t.classList.toggle("visible");
-    }
+        function handleClick() {
+            event.preventDefault()
+            const t = document.getElementById("table_data");
+            t.classList.toggle("visible");
+        }
     </script>
 </head>
 
@@ -78,7 +77,7 @@ function DateThai($strDate)
 
         <div class="section1">
 
-            <div class="pic-top"><img src="<?php echo base_url("/ci/public/event_love_heart/images/pic-top.jpg"); ?>" />
+            <div class="pic-top"><img src="<?php echo base_url("/event_love_heart/images/pic-top.jpg"); ?>" />
             </div>
 
             <div class="content">
@@ -197,9 +196,9 @@ function DateThai($strDate)
                 <br />
 
                 <br />
-                <img src="<?php echo base_url("/ci/public/event_love_heart/images/01.png"); ?>" />
+                <img src="<?php echo base_url("/event_love_heart/images/01.png"); ?>" />
                 <br />
-                <img src="<?php echo base_url("/ci/public/event_love_heart/images/02.png"); ?>" />
+                <img src="<?php echo base_url("/event_love_heart/images/02.png"); ?>" />
                 <br />
                 ยศพิเศษ Love Heart 15 วัน<br />
                 เมื่อเติมคูปองขั้นต่ำ 5,000 คูปองขึ้นไป<br />

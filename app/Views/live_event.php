@@ -54,8 +54,7 @@ function DateThai($strDate)
 ?>
 
 
-<!DOCTYPE html
-    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
@@ -65,13 +64,13 @@ function DateThai($strDate)
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
 
-    <link rel="stylesheet" href="<?php echo base_url("/ci/public/css/style.css"); ?>">
+    <link rel="stylesheet" href="<?php echo base_url("/css/style.css"); ?>">
     <script>
-    function handleClick() {
-        event.preventDefault()
-        const t = document.getElementById("table_data");
-        t.classList.toggle("visible");
-    }
+        function handleClick() {
+            event.preventDefault()
+            const t = document.getElementById("table_data");
+            t.classList.toggle("visible");
+        }
     </script>
 
 </head>
@@ -82,7 +81,7 @@ function DateThai($strDate)
 
         <div class="section1">
 
-            <div class="pic-top"><img src="<?php echo base_url("/ci/public/images/pic-top.jpg"); ?>" /></div>
+            <div class="pic-top"><img src="<?php echo base_url("/images/pic-top.jpg"); ?>" /></div>
 
             <div class="content">
 
@@ -178,7 +177,7 @@ function DateThai($strDate)
 
                             </div>";
                             echo "</td>";
-                           $point_f =  number_format($count_gift);
+                            $point_f =  number_format($count_gift);
                             if ($count_gift >= 100) {
                                 echo "<td >";
                                 echo "<div >
@@ -217,7 +216,7 @@ function DateThai($strDate)
                 ➤ ไลฟ์ล็อคห้องจะไม่นับเวลาไลฟ์กิจกรรม<br />
                 <br />
 
-                <img src="<?php echo base_url("/ci/public/images/01.png"); ?>" />
+                <img src="<?php echo base_url("/images/01.png"); ?>" />
                 <br />
                 Good Morning 20 คูปอง<br />
                 ได้รับ 2 คูปอง ต่อชิ้น<br />
@@ -246,8 +245,7 @@ function DateThai($strDate)
                 โดยไม่ต้องแจ้งให้ทราบล่วงหน้า<br />
                 ➤ คำตัดสินของทีมงานถือว่าเป็นที่สิ้นสุด<br />
                 <br />
-                <b>Sponsor by WinNine Pacific : <a href="https://winnine.com.au/main.php"
-                        target="_blank">winnine.com.au</a></b><br />
+                <b>Sponsor by WinNine Pacific : <a href="https://winnine.com.au/main.php" target="_blank">winnine.com.au</a></b><br />
 
             </div><!-- /note -->
 

@@ -19,22 +19,22 @@ class Database extends Config
      * Lets you choose which connection group to
      * use if no other is specified.
      */
-    public string $defaultGroup = 'movie';
+    public string $defaultGroup = 'full_ss4';
 
     /**
      * The default database connection.
      */
-    public array $movie = [
+    public array $full_ss4 = [
         'DSN'          => '',
         'hostname'     => 'localhost',
         'username'     => 'brightdev',
         'password'     => '43349690',
-        'database'     => 'movie',
+        'database'     => 'full_ss4',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
         'DBDebug'      => true,
-        'charset'      => 'utf8',
+        'charset'      => 'utf8mb4',
         'DBCollat'     => 'utf8mb4_general_ci',
         'swapPre'      => '',
         'encrypt'      => false,

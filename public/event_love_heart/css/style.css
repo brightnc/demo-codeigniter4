@@ -214,16 +214,22 @@ table {
   border-collapse: collapse;
   font-size: 16px;
   margin-bottom: 20px;
-  border: solid;
   color: #fff;
   margin: 16px auto;
+  ;
+}
+
+.tr1{
+  background-color: #990000
+}
+.tr2{
+  background-color: #9b0235
 }
 
 th,
 td {
   text-align: center;
   padding: 8px;
-  border: 1px solid #fff;
 }
 
 th {
