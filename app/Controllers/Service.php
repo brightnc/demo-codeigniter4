@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\Mydev_model;
+use App\Libraries\Jwt;
 
 class Service extends BaseController
 {
@@ -13,6 +14,7 @@ class Service extends BaseController
         $this->mydev_model = new Mydev_model();
         $this->session = \Config\Services::session();
         $this->session->start();
+        $this->jwt = new Jwt();
         date_default_timezone_set("Asia/Bangkok");
     }
 
@@ -140,5 +142,23 @@ class Service extends BaseController
         }
         $jsonErr = json_encode(["error" => " can not get user from register"]);
         echo $jsonErr;
+    }
+
+    public  function demoJwt()
+    {
+        $key = "secretKey";
+        $expirationTime = time() + (60 * 60);
+        $data = array(
+            'userid' => '344532',
+            'cash' => '142536',
+            'exp' => $expirationTime,
+        );
+        $jwt = Jwt::encode($data, $key);
+        echo '<pre>';
+        echo $jwt;
+
+        $jwt_decoded = Jwt::decode($jwt, $key);
+        echo "<br>";
+        print_r($jwt_decoded);
     }
 }

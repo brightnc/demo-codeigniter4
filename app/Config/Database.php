@@ -19,17 +19,17 @@ class Database extends Config
      * Lets you choose which connection group to
      * use if no other is specified.
      */
-    public string $defaultGroup = 'full_ss4';
+    public string $defaultGroup = 'marketplace';
 
     /**
      * The default database connection.
      */
-    public array $full_ss4 = [
+    public array $marketplace = [
         'DSN'          => '',
         'hostname'     => 'localhost',
         'username'     => 'brightdev',
         'password'     => '43349690',
-        'database'     => 'full_ss4',
+        'database'     => 'marketplace',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
         'pConnect'     => false,
