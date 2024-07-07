@@ -27,8 +27,8 @@ class Database extends Config
     public array $marketplace = [
         'DSN'          => '',
         'hostname'     => 'localhost',
-        'username'     => 'brightdev',
-        'password'     => '43349690',
+        'username'     => 'root',
+        'password'     => '43349690bB',
         'database'     => 'marketplace',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',

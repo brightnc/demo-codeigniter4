@@ -16,7 +16,7 @@ class App extends BaseConfig
      *
      *    http://example.com/
      */
-    public string $baseURL = 'https://1692-49-0-87-150.ngrok-free.app';
+    public string $baseURL = 'http://localhost:8080/ci/public/';
     //'http://localhost:8080'
     public string $token_key = "brightdev_token";
 

@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use App\Models\Mydev_model;
 use DateTime;
+use App\Libraries\curl;
 
 class Marketplace extends BaseController
 {
@@ -12,41 +13,55 @@ class Marketplace extends BaseController
         $this->config = new \Config\App();
         $this->session = \Config\Services::session();
         $this->session->start();
+        $this->curl = new curl();
         $this->mydev_model = new Mydev_model();
         date_default_timezone_set("Asia/Bangkok");
     }
 
     public function index()
     {
-        $sql_itemlist = "SELECT s.item_id,s.user_id as seller_id,u.username as seller_name,s.item_name,s.item_description,s.img_url,s.item_price,s.item_quantity,s.promotion_id,p.discount_price,p.start_time,p.end_time,p.status,pt.type_name,sc.subcategory_name,c.category_name 
-        FROM sell_items as s 
-        LEFT JOIN promotion as p on s.promotion_id=p.promotion_id 
-        LEFT JOIN promotion_type as pt on p.promotion_type_id=pt.promotion_type_id 
-        LEFT JOIN users as u on s.user_id=u.user_id 
-        LEFT JOIN subcategory as sc on s.subcategory_id=sc.subcategory_id 
-        LEFT JOIN category as c on sc.category_id=c.category_id;";
-        $itemlistResult = $this->mydev_model->select($sql_itemlist);
+        if($this->session->get("token") !== null){
+            $data["token"] = $this->session->get("token");
+        }
+        $res = $this->curl->get("http://localhost:3000/api/products");
+        $dataBody = $res->body;
+        $dataObj = json_decode($dataBody, true);
 
-        $sql_auctionlist = "SELECT a.auction_id,a.user_id as seller_id,u.username as seller_name,a.item_name,a.item_description,a.img_url,a.start_price,a.bid_minimum,a.start_time,a.end_time,sc.subcategory_name,c.category_name 
-        FROM auction_items as a 
-        LEFT JOIN users as u on a.user_id=u.user_id 
-        LEFT JOIN subcategory as sc on a.subcategory_id=sc.subcategory_id 
-        LEFT JOIN category as c on sc.category_id=c.category_id;";
-        $auctionlistResult = $this->mydev_model->select($sql_auctionlist);
+        $res_best_sell = $this->curl->get("http://localhost:3000/api/products/best-sell");
+        $data_best_sell_body = $res_best_sell->body;
+        $data_best_sell_arr = json_decode($data_best_sell_body, true);
+        $data["sell_list"] = $dataObj;
+        $data["best_sell"] = $data_best_sell_arr;
 
-        // $sql_bestSeller = "SELECT s.item_id,s.user_id as seller_id,u.username as seller_name,s.item_name,s.item_description,s.img_url,s.item_price,s.item_quantity,s.promotion_id,p.discount_price,p.start_time,p.end_time,p.status,pt.type_name,sc.subcategory_name,c.category_name 
-        // FROM sell_items as s 
-        // LEFT JOIN promotion as p on s.promotion_id=p.promotion_id 
-        // LEFT JOIN promotion_type as pt on p.promotion_type_id=pt.promotion_type_id 
-        // LEFT JOIN users as u on s.user_id=u.user_id 
-        // LEFT JOIN subcategory as sc on s.subcategory_id=sc.subcategory_id 
-        // LEFT JOIN category as c on sc.category_id=c.category_id;";
-        // $bestSellerResult = $this->mydev_model->select($sql_bestSeller);
-
-        $data["sell_list"] = $itemlistResult;
-        $data["auction_list"] = $auctionlistResult;
 
         return view("marketplace/market_HOME", $data);
+    }
+
+    public function login()
+    {
+        return view("marketplace/market_LOGIN");
+    }
+
+    public function logout()
+    {
+        $this->session->remove("token");
+        return redirect()->to(base_url("Marketplace/index"));
+    }
+    public function login_process()
+    {
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+        $url = "http://localhost:3000/api/login";
+        $jsonBody = json_encode(["username" => $username, "password" => $password]);
+       $response = $this->curl_post($url, $jsonBody);
+
+        $dataObj = json_decode($response, true);
+        if (isset($dataObj["token"])) {
+            $this->session->set("token", $dataObj["token"]);
+            echo "Successfully logged in";
+        } else {
+            echo "Failed to login";
+        }
     }
 
     public function detail()
@@ -55,22 +70,41 @@ class Marketplace extends BaseController
             echo "error: not found!";
             exit;
         }
-        $item_id = $_GET["item_id"];
-        $sql_item = "SELECT s.item_id,s.user_id as seller_id,u.username as seller_name,s.item_name,s.item_description,s.img_url,s.item_price,s.item_quantity,s.promotion_id,p.discount_price,p.start_time,p.end_time,p.status,pt.type_name,sc.subcategory_name,c.category_name 
-        FROM sell_items as s 
-        LEFT JOIN promotion as p on s.promotion_id=p.promotion_id 
-        LEFT JOIN promotion_type as pt on p.promotion_type_id=pt.promotion_type_id 
-        LEFT JOIN users as u on s.user_id=u.user_id 
-        LEFT JOIN subcategory as sc on s.subcategory_id=sc.subcategory_id 
-        LEFT JOIN category as c on sc.category_id=c.category_id
-        WHERE s.item_id=?;";
-        $item_binding_values = array($item_id);
-        $itemResult = $this->mydev_model->select_binding($sql_item, $item_binding_values);
-        if (count($itemResult)  < 1) {
-            echo json_encode("error : not found!");
-            exit;
+        if($this->session->get("token") !== null){
+            $data["token"] = $this->session->get("token");
         }
-        $data["item_detail"] = $itemResult;
+        $item_id = $_GET["item_id"];
+        $res = $this->curl->get("http://localhost:3000/api/products/{$item_id}");
+        $dataBody = $res->body;
+        $dataObj = json_decode($dataBody, true);
+        $data["item_detail"] = $dataObj;
         return view("marketplace/market_item_detail", $data);
+    }
+
+    public function profile(){
+        if($this->session->get("token") == null){
+            return redirect()->to(base_url("Marketplace/index"));
+        }
+        $data["token"] = $this->session->get("token");
+        $res = $this->curl->get("http://localhost:3000/api/auth/me");
+        $dataBody = $res->body;
+        $dataObj = json_decode($dataBody, true);
+        $data["item_detail"] = $dataObj;
+        return view("marketplace/profile");
+    }
+
+    private function curl_post($url, $data){
+         $ch = curl_init($url);
+
+         curl_setopt($ch, CURLOPT_POST, 1);
+         curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+         curl_setopt($ch, CURLOPT_HTTPHEADER, [
+             'Content-Type: application/json',
+         ]);
+ 
+         $response = curl_exec($ch);
+         curl_close($ch);
+         return $response;
     }
 }
