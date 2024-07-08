@@ -16,7 +16,7 @@ class App extends BaseConfig
      *
      *    http://example.com/
      */
-    public string $baseURL = 'http://localhost:8080/ci/public/';
+    public string $baseURL = 'http://localhost:8080';
     //'http://localhost:8080'
     public string $token_key = "brightdev_token";
 
