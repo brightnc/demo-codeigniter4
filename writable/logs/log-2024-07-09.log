@@ -1,0 +1,367 @@
+INFO - 2024-07-09 04:19:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 04:19:07 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 11:19:07 --> ==================================================================================
+INFO - 2024-07-09 11:19:07 --> Start Time : 	2024-07-09 11:19:07
+INFO - 2024-07-09 11:19:07 --> func getEventDetail : incoming request GET ->{"token":"88306ae31161af3b3675717e29d54c6c","user_id":"user001","gen_date":"2024-07-09 11:10:00"}
+INFO - 2024-07-09 11:19:07 --> ==================================================================================
+INFO - 2024-07-09 11:19:07 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 11:19:07 --> ==================================================================================
+INFO - 2024-07-09 11:19:07 --> func getEventDetail : error -> token expired !
+INFO - 2024-07-09 11:19:07 --> ==================================================================================
+INFO - 2024-07-09 04:19:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 04:19:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 11:19:31 --> ==================================================================================
+INFO - 2024-07-09 11:19:31 --> Start Time : 	2024-07-09 11:19:31
+INFO - 2024-07-09 11:19:31 --> func getEventDetail : incoming request GET ->{"token":"711d9160b222fac8272f1cf8d1c5ee52","user_id":"user001","gen_date":"2024-07-09 11:16:00"}
+INFO - 2024-07-09 11:19:31 --> ==================================================================================
+INFO - 2024-07-09 11:19:31 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 11:19:31 --> ==================================================================================
+INFO - 2024-07-09 11:19:32 --> func getEventDetail : response -> {"code":"101","status":"success","more_data":[{"user_id":"101028743","user_name":"[WoW] \u0e21\u0e2d\u0e19\u0e40\u0e15\u0e2d\u0e23\u0e4c","user_logo":"https:\/\/image.takeme.la\/20231019\/2023101903325788e27d1bfa9e8c1da2a311583e744ddcae.jpg","count_gift":"1505"},{"user_id":"101007706","user_name":"\ud83c\udd60\ud835\ude63\ud835\ude68\u4e97\ud83c\udf38 \u1d37\u2071\u1d4f\u1d4f\u02b8 \ud83c\udf38","user_logo":"https:\/\/image.takeme.la\/20240627\/2024062703071234e489010d4e2bff4b950f0f6ad08921f8.png","count_gift":"100"},{"user_id":"100800005","user_name":"[\u029c\u1d0f\u1d18\u1d07]Snook\u2660\ufe0f","user_logo":"https:\/\/image.takeme.la\/20240607\/2024060711294927736d375476247d419dffa22a9a2b8f66.png","count_gift":"7"},{"user_id":"101236767","user_name":"Misa~Anna\\'s","user_logo":"https:\/\/image.takeme.la\/20240703\/20240703104453656d7c5c82677a721dd7dbaeb114f5eb56.png","count_gift":"6"},{"user_id":"100530041","user_name":"\u2661 ONE \ud83e\udebd\u0e21\u0e32\u0e15\u0e32 \u25e1\u0308 \u1d25  \u30b7","user_logo":"https:\/\/image.takeme.la\/20240621\/2024062103235127d3ac93be1eb40aaa9418b6408083c65b.png","count_gift":"3"},{"user_id":"101236784","user_name":"Yaya- naughty girl \ud83e\udd75","user_logo":"https:\/\/image.takeme.la\/20240630\/2024063001122154f2c383d5db64796fa198a79d7dbf0c34.png","count_gift":"2"},{"user_id":"100873709","user_name":"LAOS\ud83c\udf66rinradaice\ud83c\udf66\ud83e\udd84","user_logo":"https:\/\/image.takeme.la\/20240608\/2024060801301638f9bcfc7c61388a4a724b69565fcdce54.jpg","count_gift":"2"},{"user_id":"100964169","user_name":"\ud83c\udd60\ud835\ude63\ud835\ude68\u4e97\ua9c1\u0158\u00d8\u0160\u00cb\ua9c2","user_logo":"https:\/\/image.takeme.la\/20240503\/2024050309122049baaa948f954444e8a627a5f517f30156.jpg","count_gift":"2"},{"user_id":"101234046","user_name":"JUST \ud83c\udf36\ufe0f - \u0e2d\u0e1b\u0e41\u0e2d\u0e1b\u0e40\u0e1b\u0e34\u0e25","user_logo":"https:\/\/image.takeme.la\/20240625\/2024062506340538c283268b0441b8962c1de9c33f4af72b.png","count_gift":"1"},{"user_id":"101236447","user_name":"(ONE INTER) An Khanh","user_logo":"https:\/\/image.takeme.la\/20240623\/202406230126359867b70856cf107f866b51995abb035da0.png","count_gift":"1"},{"user_id":"101233060","user_name":"[Coolz\ud83d\udca6]\u2022\u0e1c\u0e34\u0e07\u0e1c\u0e34\u0e07","user_logo":"https:\/\/image.takeme.la\/20240529\/2024052910291491f2a3c9a272cbf4b711fca2c8509949c9.png","count_gift":"1"},{"user_id":"101236271","user_name":"(YAYA) Alone","user_logo":"https:\/\/image.takeme.la\/20240703\/20240703054634246e84ec3de64ad64cb5c8d65f97eb8aaa.png","count_gift":"1"},{"user_id":"101231696","user_name":"(ONE) gamgam","user_logo":"https:\/\/image.takeme.la\/20240517\/2024051701050551cbec1a239d6dbf7930beccc455704377.png","count_gift":"1"},{"user_id":"100592571","user_name":"[90\u24e2]\ud83c\udf51\ud83d\udcab\u0e2d\u0e34\u0e07\u0e2d\u0e34\u0e07\ud83d\udcab\ud83c\udf51","user_logo":"https:\/\/image.takeme.la\/20240623\/2024062307562070e3109a900bfbaec8467f049abcf247ef.jpg","count_gift":"1"},{"user_id":"101188129","user_name":"LAOS\ud83e\udd0d\u0e21\u0e34\u0e14\u0e49\u0e32\ud83e\udd8a\ud83c\udf39","user_logo":"https:\/\/image.takeme.la\/20240610\/202406100907373001b186f3c2b345930daece855943cd00.jpg","count_gift":"1"},{"user_id":"101234543","user_name":"Just \ud83c\udf36\ufe0f-Oil-","user_logo":"https:\/\/image.takeme.la\/20240617\/20240617070253377aedda8ec780e865d13aef5b44f5f572.png","count_gift":"1"},{"user_id":"100602558","user_name":"\u0e27\u0e48\u0e32\u0e07\ud83d\udcde\u0e07\u0e31\u0e1a","user_logo":"https:\/\/image.takeme.la\/20240413\/20240413123131834b406c9f50fabb2f153cbcc9dd9e37b9.jpg","count_gift":"1"},{"user_id":"101234178","user_name":"JUST\ud83c\udf36\ufe0f-\u0e1e\u0e23\u0e32\u0e27\u0e43\u0e2a","user_logo":"https:\/\/image.takeme.la\/20240701\/20240701090340288dc487985f21e9441658ffe59773d71d.png","count_gift":"1"},{"user_id":"101236237","user_name":"[YAYA] \ud83d\udc51","user_logo":"https:\/\/image.takeme.la\/20240629\/20240629011100794b766d00e17dd97f3bed2f35ff390952.png","count_gift":"1"}],"group":{"th-lang":"\u0e23\u0e2b\u0e31\u0e2a\u0e23\u0e49\u0e2d\u0e19 69","en-lang":"HOT CODE 69","start_date":"2024-07-03 14:00:00","end_date":"2024-07-04 23:59:59","event_id":"1"}}
+INFO - 2024-07-09 11:19:32 --> ==================================================================================
+INFO - 2024-07-09 04:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 04:29:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 11:29:32 --> ==================================================================================
+INFO - 2024-07-09 11:29:32 --> Start Time : 	2024-07-09 11:29:32
+INFO - 2024-07-09 11:29:32 --> func getEventDetail : incoming request GET ->{"token":"711d9160b222fac8272f1cf8d1c5ee52","user_id":"user001","gen_date":"2024-07-09 11:16:00"}
+INFO - 2024-07-09 11:29:32 --> ==================================================================================
+INFO - 2024-07-09 11:29:32 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 11:29:32 --> ==================================================================================
+INFO - 2024-07-09 11:29:32 --> func getEventDetail : error -> token expired !
+INFO - 2024-07-09 11:29:32 --> ==================================================================================
+INFO - 2024-07-09 06:10:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:10:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 13:10:37 --> ==================================================================================
+INFO - 2024-07-09 13:10:37 --> Start Time : 	2024-07-09 13:10:37
+INFO - 2024-07-09 13:10:37 --> func getEventDetail : incoming request GET ->{"token":"711d9160b222fac8272f1cf8d1c5ee52","user_id":"user001","gen_date":"2024-07-09 11:16:00"}
+INFO - 2024-07-09 13:10:37 --> ==================================================================================
+INFO - 2024-07-09 13:10:37 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 13:10:37 --> ==================================================================================
+INFO - 2024-07-09 13:10:37 --> func getEventDetail : error -> token expired !
+INFO - 2024-07-09 13:10:37 --> ==================================================================================
+INFO - 2024-07-09 06:11:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:11:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 06:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:12:46 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 06:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:29:39 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 06:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:30:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 06:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:33:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 06:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:34:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 06:39:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:39:13 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 06:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:39:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 06:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:39:26 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 06:39:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:39:27 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 06:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:39:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 06:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:39:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-09 13:39:28 --> ArgumentCountError: Too few arguments to function App\Controllers\Event_Rank::test_decode_jwt(), 0 passed in C:\xampp\htdocs\ci\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Event_Rank.php on line 447.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->test_decode_jwt()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-09 06:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:39:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 13:39:57 --> ==================================================================================
+INFO - 2024-07-09 13:39:57 --> Start Time : 	2024-07-09 13:39:57
+INFO - 2024-07-09 13:39:57 --> func getEventDetail : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiZmE0ZDYyNzc0OTU2MDI1YWFhYjRiNjU4MDBlMGM3MWFcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDEzOjM5OjE3XCJ9Ig._gq_EYn0ndsjZkvcb-NGzoUuhIiUCsYfsLedQTIeoLU"}
+INFO - 2024-07-09 13:39:57 --> ==================================================================================
+INFO - 2024-07-09 13:39:57 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 13:39:57 --> ==================================================================================
+CRITICAL - 2024-07-09 13:39:57 --> Error: Object of class stdClass could not be converted to string
+in APPPATH\Controllers\Event_Rank.php on line 332.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->getEventDetail_JWT()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-09 06:40:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:40:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 13:40:14 --> ==================================================================================
+INFO - 2024-07-09 13:40:14 --> Start Time : 	2024-07-09 13:40:14
+INFO - 2024-07-09 13:40:14 --> func getEventDetail : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiZmE0ZDYyNzc0OTU2MDI1YWFhYjRiNjU4MDBlMGM3MWFcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDEzOjM5OjE3XCJ9Ig._gq_EYn0ndsjZkvcb-NGzoUuhIiUCsYfsLedQTIeoLU"}
+INFO - 2024-07-09 13:40:14 --> ==================================================================================
+INFO - 2024-07-09 13:40:14 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 13:40:14 --> ==================================================================================
+INFO - 2024-07-09 06:45:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:45:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 06:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:45:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 13:45:17 --> ==================================================================================
+INFO - 2024-07-09 13:45:17 --> Start Time : 	2024-07-09 13:45:17
+INFO - 2024-07-09 13:45:17 --> func getEventDetail : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiZmE0ZDYyNzc0OTU2MDI1YWFhYjRiNjU4MDBlMGM3MWFcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDEzOjM5OjE3XCJ9Ig._gq_EYn0ndsjZkvcb-NGzoUuhIiUCsYfsLedQTIeoLU"}
+INFO - 2024-07-09 13:45:17 --> ==================================================================================
+INFO - 2024-07-09 13:45:17 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 13:45:17 --> ==================================================================================
+INFO - 2024-07-09 13:45:17 --> func getEventDetail : JWT payload ->{"value_data":"user001","validate_key":"fa4d62774956025aaab4b65800e0c71a","ctime":"2024-07-09 13:39:17"}
+INFO - 2024-07-09 13:45:17 --> ==================================================================================
+INFO - 2024-07-09 13:45:17 --> func getEventDetail : error -> token expired !
+INFO - 2024-07-09 13:45:17 --> ==================================================================================
+INFO - 2024-07-09 06:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:45:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 13:45:23 --> ==================================================================================
+INFO - 2024-07-09 13:45:23 --> Start Time : 	2024-07-09 13:45:23
+INFO - 2024-07-09 13:45:23 --> func getEventDetail : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiY2U0NTMwODAzZGRlMWZhODI0OGY2ZTc2NDIwMGY5YzBcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDEzOjQ1OjA2XCJ9Ig.tTGbBn6XaPDEKNvFBn1dAzVzAaImXkr4nOYgWvRUHAc"}
+INFO - 2024-07-09 13:45:23 --> ==================================================================================
+INFO - 2024-07-09 13:45:23 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 13:45:23 --> ==================================================================================
+INFO - 2024-07-09 13:45:23 --> func getEventDetail : JWT payload ->{"value_data":"user001","validate_key":"ce4530803dde1fa8248f6e764200f9c0","ctime":"2024-07-09 13:45:06"}
+INFO - 2024-07-09 13:45:23 --> ==================================================================================
+INFO - 2024-07-09 13:45:23 --> func getEventDetail : response -> {"code":"101","status":"success","more_data":[{"user_id":"101028743","user_name":"[WoW] \u0e21\u0e2d\u0e19\u0e40\u0e15\u0e2d\u0e23\u0e4c","user_logo":"https:\/\/image.takeme.la\/20231019\/2023101903325788e27d1bfa9e8c1da2a311583e744ddcae.jpg","count_gift":"1505"},{"user_id":"101007706","user_name":"\ud83c\udd60\ud835\ude63\ud835\ude68\u4e97\ud83c\udf38 \u1d37\u2071\u1d4f\u1d4f\u02b8 \ud83c\udf38","user_logo":"https:\/\/image.takeme.la\/20240627\/2024062703071234e489010d4e2bff4b950f0f6ad08921f8.png","count_gift":"100"},{"user_id":"100800005","user_name":"[\u029c\u1d0f\u1d18\u1d07]Snook\u2660\ufe0f","user_logo":"https:\/\/image.takeme.la\/20240607\/2024060711294927736d375476247d419dffa22a9a2b8f66.png","count_gift":"7"},{"user_id":"101236767","user_name":"Misa~Anna\\'s","user_logo":"https:\/\/image.takeme.la\/20240703\/20240703104453656d7c5c82677a721dd7dbaeb114f5eb56.png","count_gift":"6"},{"user_id":"100530041","user_name":"\u2661 ONE \ud83e\udebd\u0e21\u0e32\u0e15\u0e32 \u25e1\u0308 \u1d25  \u30b7","user_logo":"https:\/\/image.takeme.la\/20240621\/2024062103235127d3ac93be1eb40aaa9418b6408083c65b.png","count_gift":"3"},{"user_id":"101236784","user_name":"Yaya- naughty girl \ud83e\udd75","user_logo":"https:\/\/image.takeme.la\/20240630\/2024063001122154f2c383d5db64796fa198a79d7dbf0c34.png","count_gift":"2"},{"user_id":"100873709","user_name":"LAOS\ud83c\udf66rinradaice\ud83c\udf66\ud83e\udd84","user_logo":"https:\/\/image.takeme.la\/20240608\/2024060801301638f9bcfc7c61388a4a724b69565fcdce54.jpg","count_gift":"2"},{"user_id":"100964169","user_name":"\ud83c\udd60\ud835\ude63\ud835\ude68\u4e97\ua9c1\u0158\u00d8\u0160\u00cb\ua9c2","user_logo":"https:\/\/image.takeme.la\/20240503\/2024050309122049baaa948f954444e8a627a5f517f30156.jpg","count_gift":"2"},{"user_id":"101234046","user_name":"JUST \ud83c\udf36\ufe0f - \u0e2d\u0e1b\u0e41\u0e2d\u0e1b\u0e40\u0e1b\u0e34\u0e25","user_logo":"https:\/\/image.takeme.la\/20240625\/2024062506340538c283268b0441b8962c1de9c33f4af72b.png","count_gift":"1"},{"user_id":"101236447","user_name":"(ONE INTER) An Khanh","user_logo":"https:\/\/image.takeme.la\/20240623\/202406230126359867b70856cf107f866b51995abb035da0.png","count_gift":"1"},{"user_id":"101233060","user_name":"[Coolz\ud83d\udca6]\u2022\u0e1c\u0e34\u0e07\u0e1c\u0e34\u0e07","user_logo":"https:\/\/image.takeme.la\/20240529\/2024052910291491f2a3c9a272cbf4b711fca2c8509949c9.png","count_gift":"1"},{"user_id":"101236271","user_name":"(YAYA) Alone","user_logo":"https:\/\/image.takeme.la\/20240703\/20240703054634246e84ec3de64ad64cb5c8d65f97eb8aaa.png","count_gift":"1"},{"user_id":"101231696","user_name":"(ONE) gamgam","user_logo":"https:\/\/image.takeme.la\/20240517\/2024051701050551cbec1a239d6dbf7930beccc455704377.png","count_gift":"1"},{"user_id":"100592571","user_name":"[90\u24e2]\ud83c\udf51\ud83d\udcab\u0e2d\u0e34\u0e07\u0e2d\u0e34\u0e07\ud83d\udcab\ud83c\udf51","user_logo":"https:\/\/image.takeme.la\/20240623\/2024062307562070e3109a900bfbaec8467f049abcf247ef.jpg","count_gift":"1"},{"user_id":"101188129","user_name":"LAOS\ud83e\udd0d\u0e21\u0e34\u0e14\u0e49\u0e32\ud83e\udd8a\ud83c\udf39","user_logo":"https:\/\/image.takeme.la\/20240610\/202406100907373001b186f3c2b345930daece855943cd00.jpg","count_gift":"1"},{"user_id":"101234543","user_name":"Just \ud83c\udf36\ufe0f-Oil-","user_logo":"https:\/\/image.takeme.la\/20240617\/20240617070253377aedda8ec780e865d13aef5b44f5f572.png","count_gift":"1"},{"user_id":"100602558","user_name":"\u0e27\u0e48\u0e32\u0e07\ud83d\udcde\u0e07\u0e31\u0e1a","user_logo":"https:\/\/image.takeme.la\/20240413\/20240413123131834b406c9f50fabb2f153cbcc9dd9e37b9.jpg","count_gift":"1"},{"user_id":"101234178","user_name":"JUST\ud83c\udf36\ufe0f-\u0e1e\u0e23\u0e32\u0e27\u0e43\u0e2a","user_logo":"https:\/\/image.takeme.la\/20240701\/20240701090340288dc487985f21e9441658ffe59773d71d.png","count_gift":"1"},{"user_id":"101236237","user_name":"[YAYA] \ud83d\udc51","user_logo":"https:\/\/image.takeme.la\/20240629\/20240629011100794b766d00e17dd97f3bed2f35ff390952.png","count_gift":"1"}],"group":{"th-lang":"\u0e23\u0e2b\u0e31\u0e2a\u0e23\u0e49\u0e2d\u0e19 69","en-lang":"HOT CODE 69","start_date":"2024-07-03 14:00:00","end_date":"2024-07-04 23:59:59","event_id":"1"}}
+INFO - 2024-07-09 13:45:23 --> ==================================================================================
+INFO - 2024-07-09 06:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:46:56 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 13:46:56 --> ==================================================================================
+INFO - 2024-07-09 13:46:56 --> Start Time : 	2024-07-09 13:46:56
+INFO - 2024-07-09 13:46:56 --> func getEventDetail : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiZmE0ZDYyNzc0OTU2MDI1YWFhYjRiNjU4MDBlMGM3MWFcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDEzOjM5OjE3XCJ9Ig._gq_EYn0ndsjZkvcb-NGzoUuhIiUCsYfsLedQTIeoLU"}
+INFO - 2024-07-09 13:46:56 --> ==================================================================================
+INFO - 2024-07-09 13:46:56 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 13:46:56 --> ==================================================================================
+INFO - 2024-07-09 13:46:56 --> func getEventDetail : JWT payload ->{"value_data":"user001","validate_key":"fa4d62774956025aaab4b65800e0c71a","ctime":"2024-07-09 13:39:17"}
+INFO - 2024-07-09 13:46:56 --> ==================================================================================
+INFO - 2024-07-09 06:46:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:46:58 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-09 13:46:58 --> ArgumentCountError: Too few arguments to function App\Controllers\Event_Rank::test_decode_jwt(), 0 passed in C:\xampp\htdocs\ci\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Event_Rank.php on line 447.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->test_decode_jwt()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-09 06:47:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:47:01 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 06:47:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:47:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 06:47:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:47:08 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-09 13:47:08 --> ArgumentCountError: Too few arguments to function App\Controllers\Event_Rank::test_decode_jwt(), 0 passed in C:\xampp\htdocs\ci\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\Event_Rank.php on line 447.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->test_decode_jwt()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-09 06:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:47:10 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 13:47:10 --> ==================================================================================
+INFO - 2024-07-09 13:47:10 --> Start Time : 	2024-07-09 13:47:10
+INFO - 2024-07-09 13:47:10 --> func getEventDetail : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiZmE0ZDYyNzc0OTU2MDI1YWFhYjRiNjU4MDBlMGM3MWFcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDEzOjM5OjE3XCJ9Ig._gq_EYn0ndsjZkvcb-NGzoUuhIiUCsYfsLedQTIeoLU"}
+INFO - 2024-07-09 13:47:10 --> ==================================================================================
+INFO - 2024-07-09 13:47:10 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 13:47:10 --> ==================================================================================
+INFO - 2024-07-09 13:47:10 --> func getEventDetail : JWT payload ->{"value_data":"user001","validate_key":"fa4d62774956025aaab4b65800e0c71a","ctime":"2024-07-09 13:39:17"}
+INFO - 2024-07-09 13:47:10 --> ==================================================================================
+INFO - 2024-07-09 06:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:47:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 13:47:12 --> ==================================================================================
+INFO - 2024-07-09 13:47:12 --> Start Time : 	2024-07-09 13:47:12
+INFO - 2024-07-09 13:47:12 --> func getEventDetail : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiZmE0ZDYyNzc0OTU2MDI1YWFhYjRiNjU4MDBlMGM3MWFcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDEzOjM5OjE3XCJ9Ig._gq_EYn0ndsjZkvcb-NGzoUuhIiUCsYfsLedQTIeoLU"}
+INFO - 2024-07-09 13:47:12 --> ==================================================================================
+INFO - 2024-07-09 13:47:12 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 13:47:12 --> ==================================================================================
+INFO - 2024-07-09 13:47:12 --> func getEventDetail : JWT payload ->{"value_data":"user001","validate_key":"fa4d62774956025aaab4b65800e0c71a","ctime":"2024-07-09 13:39:17"}
+INFO - 2024-07-09 13:47:12 --> ==================================================================================
+INFO - 2024-07-09 06:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:47:17 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 13:47:17 --> ==================================================================================
+INFO - 2024-07-09 13:47:17 --> Start Time : 	2024-07-09 13:47:17
+INFO - 2024-07-09 13:47:17 --> func getEventDetail : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiZmE0ZDYyNzc0OTU2MDI1YWFhYjRiNjU4MDBlMGM3MWFcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDEzOjM5OjE3XCJ9Ig._gq_EYn0ndsjZkvcb-NGzoUuhIiUCsYfsLedQTIeoLU"}
+INFO - 2024-07-09 13:47:17 --> ==================================================================================
+INFO - 2024-07-09 13:47:17 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 13:47:17 --> ==================================================================================
+INFO - 2024-07-09 13:47:17 --> func getEventDetail : JWT payload ->{"value_data":"user001","validate_key":"fa4d62774956025aaab4b65800e0c71a","ctime":"2024-07-09 13:39:17"}
+INFO - 2024-07-09 13:47:17 --> ==================================================================================
+INFO - 2024-07-09 06:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:47:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 13:47:19 --> ==================================================================================
+INFO - 2024-07-09 13:47:19 --> Start Time : 	2024-07-09 13:47:19
+INFO - 2024-07-09 13:47:19 --> func getEventDetail : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiY2U0NTMwODAzZGRlMWZhODI0OGY2ZTc2NDIwMGY5YzBcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDEzOjQ1OjA2XCJ9Ig.tTGbBn6XaPDEKNvFBn1dAzVzAaImXkr4nOYgWvRUHAc"}
+INFO - 2024-07-09 13:47:19 --> ==================================================================================
+INFO - 2024-07-09 13:47:19 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 13:47:19 --> ==================================================================================
+INFO - 2024-07-09 13:47:19 --> func getEventDetail : JWT payload ->{"value_data":"user001","validate_key":"ce4530803dde1fa8248f6e764200f9c0","ctime":"2024-07-09 13:45:06"}
+INFO - 2024-07-09 13:47:19 --> ==================================================================================
+INFO - 2024-07-09 06:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:47:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 13:47:20 --> ==================================================================================
+INFO - 2024-07-09 13:47:20 --> Start Time : 	2024-07-09 13:47:20
+INFO - 2024-07-09 13:47:20 --> func getEventDetail : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiY2U0NTMwODAzZGRlMWZhODI0OGY2ZTc2NDIwMGY5YzBcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDEzOjQ1OjA2XCJ9Ig.tTGbBn6XaPDEKNvFBn1dAzVzAaImXkr4nOYgWvRUHAc"}
+INFO - 2024-07-09 13:47:20 --> ==================================================================================
+INFO - 2024-07-09 13:47:20 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 13:47:20 --> ==================================================================================
+INFO - 2024-07-09 13:47:20 --> func getEventDetail : JWT payload ->{"value_data":"user001","validate_key":"ce4530803dde1fa8248f6e764200f9c0","ctime":"2024-07-09 13:45:06"}
+INFO - 2024-07-09 13:47:20 --> ==================================================================================
+INFO - 2024-07-09 06:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:47:37 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 13:47:37 --> ==================================================================================
+INFO - 2024-07-09 13:47:37 --> Start Time : 	2024-07-09 13:47:37
+INFO - 2024-07-09 13:47:37 --> func getEventDetail : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiMjQ4OGQxNjg3ZmMxNzQ0OGNlNzcwZGE4NDk5NGQ4YjJcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDEzOjQ3OjA2XCJ9Ig.j7ulI0uuxEusqSJCczkL26Ctchf37PIohNdWU58dfbw"}
+INFO - 2024-07-09 13:47:37 --> ==================================================================================
+INFO - 2024-07-09 13:47:37 --> func getEventDetail : incoming request POST ->[]
+INFO - 2024-07-09 13:47:37 --> ==================================================================================
+INFO - 2024-07-09 13:47:37 --> func getEventDetail : JWT payload ->{"value_data":"user001","validate_key":"2488d1687fc17448ce770da84994d8b2","ctime":"2024-07-09 13:47:06"}
+INFO - 2024-07-09 13:47:37 --> ==================================================================================
+INFO - 2024-07-09 13:47:37 --> func getEventDetail : response -> {"code":"101","status":"success","more_data":[{"user_id":"101028743","user_name":"[WoW] \u0e21\u0e2d\u0e19\u0e40\u0e15\u0e2d\u0e23\u0e4c","user_logo":"https:\/\/image.takeme.la\/20231019\/2023101903325788e27d1bfa9e8c1da2a311583e744ddcae.jpg","count_gift":"1505"},{"user_id":"101007706","user_name":"\ud83c\udd60\ud835\ude63\ud835\ude68\u4e97\ud83c\udf38 \u1d37\u2071\u1d4f\u1d4f\u02b8 \ud83c\udf38","user_logo":"https:\/\/image.takeme.la\/20240627\/2024062703071234e489010d4e2bff4b950f0f6ad08921f8.png","count_gift":"100"},{"user_id":"100800005","user_name":"[\u029c\u1d0f\u1d18\u1d07]Snook\u2660\ufe0f","user_logo":"https:\/\/image.takeme.la\/20240607\/2024060711294927736d375476247d419dffa22a9a2b8f66.png","count_gift":"7"},{"user_id":"101236767","user_name":"Misa~Anna\\'s","user_logo":"https:\/\/image.takeme.la\/20240703\/20240703104453656d7c5c82677a721dd7dbaeb114f5eb56.png","count_gift":"6"},{"user_id":"100530041","user_name":"\u2661 ONE \ud83e\udebd\u0e21\u0e32\u0e15\u0e32 \u25e1\u0308 \u1d25  \u30b7","user_logo":"https:\/\/image.takeme.la\/20240621\/2024062103235127d3ac93be1eb40aaa9418b6408083c65b.png","count_gift":"3"},{"user_id":"101236784","user_name":"Yaya- naughty girl \ud83e\udd75","user_logo":"https:\/\/image.takeme.la\/20240630\/2024063001122154f2c383d5db64796fa198a79d7dbf0c34.png","count_gift":"2"},{"user_id":"100873709","user_name":"LAOS\ud83c\udf66rinradaice\ud83c\udf66\ud83e\udd84","user_logo":"https:\/\/image.takeme.la\/20240608\/2024060801301638f9bcfc7c61388a4a724b69565fcdce54.jpg","count_gift":"2"},{"user_id":"100964169","user_name":"\ud83c\udd60\ud835\ude63\ud835\ude68\u4e97\ua9c1\u0158\u00d8\u0160\u00cb\ua9c2","user_logo":"https:\/\/image.takeme.la\/20240503\/2024050309122049baaa948f954444e8a627a5f517f30156.jpg","count_gift":"2"},{"user_id":"101234046","user_name":"JUST \ud83c\udf36\ufe0f - \u0e2d\u0e1b\u0e41\u0e2d\u0e1b\u0e40\u0e1b\u0e34\u0e25","user_logo":"https:\/\/image.takeme.la\/20240625\/2024062506340538c283268b0441b8962c1de9c33f4af72b.png","count_gift":"1"},{"user_id":"101236447","user_name":"(ONE INTER) An Khanh","user_logo":"https:\/\/image.takeme.la\/20240623\/202406230126359867b70856cf107f866b51995abb035da0.png","count_gift":"1"},{"user_id":"101233060","user_name":"[Coolz\ud83d\udca6]\u2022\u0e1c\u0e34\u0e07\u0e1c\u0e34\u0e07","user_logo":"https:\/\/image.takeme.la\/20240529\/2024052910291491f2a3c9a272cbf4b711fca2c8509949c9.png","count_gift":"1"},{"user_id":"101236271","user_name":"(YAYA) Alone","user_logo":"https:\/\/image.takeme.la\/20240703\/20240703054634246e84ec3de64ad64cb5c8d65f97eb8aaa.png","count_gift":"1"},{"user_id":"101231696","user_name":"(ONE) gamgam","user_logo":"https:\/\/image.takeme.la\/20240517\/2024051701050551cbec1a239d6dbf7930beccc455704377.png","count_gift":"1"},{"user_id":"100592571","user_name":"[90\u24e2]\ud83c\udf51\ud83d\udcab\u0e2d\u0e34\u0e07\u0e2d\u0e34\u0e07\ud83d\udcab\ud83c\udf51","user_logo":"https:\/\/image.takeme.la\/20240623\/2024062307562070e3109a900bfbaec8467f049abcf247ef.jpg","count_gift":"1"},{"user_id":"101188129","user_name":"LAOS\ud83e\udd0d\u0e21\u0e34\u0e14\u0e49\u0e32\ud83e\udd8a\ud83c\udf39","user_logo":"https:\/\/image.takeme.la\/20240610\/202406100907373001b186f3c2b345930daece855943cd00.jpg","count_gift":"1"},{"user_id":"101234543","user_name":"Just \ud83c\udf36\ufe0f-Oil-","user_logo":"https:\/\/image.takeme.la\/20240617\/20240617070253377aedda8ec780e865d13aef5b44f5f572.png","count_gift":"1"},{"user_id":"100602558","user_name":"\u0e27\u0e48\u0e32\u0e07\ud83d\udcde\u0e07\u0e31\u0e1a","user_logo":"https:\/\/image.takeme.la\/20240413\/20240413123131834b406c9f50fabb2f153cbcc9dd9e37b9.jpg","count_gift":"1"},{"user_id":"101234178","user_name":"JUST\ud83c\udf36\ufe0f-\u0e1e\u0e23\u0e32\u0e27\u0e43\u0e2a","user_logo":"https:\/\/image.takeme.la\/20240701\/20240701090340288dc487985f21e9441658ffe59773d71d.png","count_gift":"1"},{"user_id":"101236237","user_name":"[YAYA] \ud83d\udc51","user_logo":"https:\/\/image.takeme.la\/20240629\/20240629011100794b766d00e17dd97f3bed2f35ff390952.png","count_gift":"1"}],"group":{"th-lang":"\u0e23\u0e2b\u0e31\u0e2a\u0e23\u0e49\u0e2d\u0e19 69","en-lang":"HOT CODE 69","start_date":"2024-07-03 14:00:00","end_date":"2024-07-04 23:59:59","event_id":"1"}}
+INFO - 2024-07-09 13:47:37 --> ==================================================================================
+INFO - 2024-07-09 06:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:49:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 13:49:18 --> ==================================================================================
+INFO - 2024-07-09 13:49:18 --> Start Time : 	2024-07-09 13:49:18
+INFO - 2024-07-09 13:49:18 --> func getEventDetail_JWT : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiMjQ4OGQxNjg3ZmMxNzQ0OGNlNzcwZGE4NDk5NGQ4YjJcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDEzOjQ3OjA2XCJ9Ig.j7ulI0uuxEusqSJCczkL26Ctchf37PIohNdWU58dfbw"}
+INFO - 2024-07-09 13:49:18 --> ==================================================================================
+INFO - 2024-07-09 13:49:18 --> func getEventDetail_JWT : incoming request POST ->[]
+INFO - 2024-07-09 13:49:18 --> ==================================================================================
+INFO - 2024-07-09 13:49:18 --> func getEventDetail_JWT : JWT payload ->{"value_data":"user001","validate_key":"2488d1687fc17448ce770da84994d8b2","ctime":"2024-07-09 13:47:06"}
+INFO - 2024-07-09 13:49:18 --> ==================================================================================
+INFO - 2024-07-09 13:49:18 --> func getEventDetail_JWT : response -> {"code":"101","status":"success","more_data":[{"user_id":"101028743","user_name":"[WoW] \u0e21\u0e2d\u0e19\u0e40\u0e15\u0e2d\u0e23\u0e4c","user_logo":"https:\/\/image.takeme.la\/20231019\/2023101903325788e27d1bfa9e8c1da2a311583e744ddcae.jpg","count_gift":"1505"},{"user_id":"101007706","user_name":"\ud83c\udd60\ud835\ude63\ud835\ude68\u4e97\ud83c\udf38 \u1d37\u2071\u1d4f\u1d4f\u02b8 \ud83c\udf38","user_logo":"https:\/\/image.takeme.la\/20240627\/2024062703071234e489010d4e2bff4b950f0f6ad08921f8.png","count_gift":"100"},{"user_id":"100800005","user_name":"[\u029c\u1d0f\u1d18\u1d07]Snook\u2660\ufe0f","user_logo":"https:\/\/image.takeme.la\/20240607\/2024060711294927736d375476247d419dffa22a9a2b8f66.png","count_gift":"7"},{"user_id":"101236767","user_name":"Misa~Anna\\'s","user_logo":"https:\/\/image.takeme.la\/20240703\/20240703104453656d7c5c82677a721dd7dbaeb114f5eb56.png","count_gift":"6"},{"user_id":"100530041","user_name":"\u2661 ONE \ud83e\udebd\u0e21\u0e32\u0e15\u0e32 \u25e1\u0308 \u1d25  \u30b7","user_logo":"https:\/\/image.takeme.la\/20240621\/2024062103235127d3ac93be1eb40aaa9418b6408083c65b.png","count_gift":"3"},{"user_id":"101236784","user_name":"Yaya- naughty girl \ud83e\udd75","user_logo":"https:\/\/image.takeme.la\/20240630\/2024063001122154f2c383d5db64796fa198a79d7dbf0c34.png","count_gift":"2"},{"user_id":"100873709","user_name":"LAOS\ud83c\udf66rinradaice\ud83c\udf66\ud83e\udd84","user_logo":"https:\/\/image.takeme.la\/20240608\/2024060801301638f9bcfc7c61388a4a724b69565fcdce54.jpg","count_gift":"2"},{"user_id":"100964169","user_name":"\ud83c\udd60\ud835\ude63\ud835\ude68\u4e97\ua9c1\u0158\u00d8\u0160\u00cb\ua9c2","user_logo":"https:\/\/image.takeme.la\/20240503\/2024050309122049baaa948f954444e8a627a5f517f30156.jpg","count_gift":"2"},{"user_id":"101234046","user_name":"JUST \ud83c\udf36\ufe0f - \u0e2d\u0e1b\u0e41\u0e2d\u0e1b\u0e40\u0e1b\u0e34\u0e25","user_logo":"https:\/\/image.takeme.la\/20240625\/2024062506340538c283268b0441b8962c1de9c33f4af72b.png","count_gift":"1"},{"user_id":"101236447","user_name":"(ONE INTER) An Khanh","user_logo":"https:\/\/image.takeme.la\/20240623\/202406230126359867b70856cf107f866b51995abb035da0.png","count_gift":"1"},{"user_id":"101233060","user_name":"[Coolz\ud83d\udca6]\u2022\u0e1c\u0e34\u0e07\u0e1c\u0e34\u0e07","user_logo":"https:\/\/image.takeme.la\/20240529\/2024052910291491f2a3c9a272cbf4b711fca2c8509949c9.png","count_gift":"1"},{"user_id":"101236271","user_name":"(YAYA) Alone","user_logo":"https:\/\/image.takeme.la\/20240703\/20240703054634246e84ec3de64ad64cb5c8d65f97eb8aaa.png","count_gift":"1"},{"user_id":"101231696","user_name":"(ONE) gamgam","user_logo":"https:\/\/image.takeme.la\/20240517\/2024051701050551cbec1a239d6dbf7930beccc455704377.png","count_gift":"1"},{"user_id":"100592571","user_name":"[90\u24e2]\ud83c\udf51\ud83d\udcab\u0e2d\u0e34\u0e07\u0e2d\u0e34\u0e07\ud83d\udcab\ud83c\udf51","user_logo":"https:\/\/image.takeme.la\/20240623\/2024062307562070e3109a900bfbaec8467f049abcf247ef.jpg","count_gift":"1"},{"user_id":"101188129","user_name":"LAOS\ud83e\udd0d\u0e21\u0e34\u0e14\u0e49\u0e32\ud83e\udd8a\ud83c\udf39","user_logo":"https:\/\/image.takeme.la\/20240610\/202406100907373001b186f3c2b345930daece855943cd00.jpg","count_gift":"1"},{"user_id":"101234543","user_name":"Just \ud83c\udf36\ufe0f-Oil-","user_logo":"https:\/\/image.takeme.la\/20240617\/20240617070253377aedda8ec780e865d13aef5b44f5f572.png","count_gift":"1"},{"user_id":"100602558","user_name":"\u0e27\u0e48\u0e32\u0e07\ud83d\udcde\u0e07\u0e31\u0e1a","user_logo":"https:\/\/image.takeme.la\/20240413\/20240413123131834b406c9f50fabb2f153cbcc9dd9e37b9.jpg","count_gift":"1"},{"user_id":"101234178","user_name":"JUST\ud83c\udf36\ufe0f-\u0e1e\u0e23\u0e32\u0e27\u0e43\u0e2a","user_logo":"https:\/\/image.takeme.la\/20240701\/20240701090340288dc487985f21e9441658ffe59773d71d.png","count_gift":"1"},{"user_id":"101236237","user_name":"[YAYA] \ud83d\udc51","user_logo":"https:\/\/image.takeme.la\/20240629\/20240629011100794b766d00e17dd97f3bed2f35ff390952.png","count_gift":"1"}],"group":{"th-lang":"\u0e23\u0e2b\u0e31\u0e2a\u0e23\u0e49\u0e2d\u0e19 69","en-lang":"HOT CODE 69","start_date":"2024-07-03 14:00:00","end_date":"2024-07-04 23:59:59","event_id":"1"}}
+INFO - 2024-07-09 13:49:18 --> ==================================================================================
+INFO - 2024-07-09 06:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 06:50:32 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 13:50:32 --> ==================================================================================
+INFO - 2024-07-09 13:50:32 --> Start Time : 	2024-07-09 13:50:32
+INFO - 2024-07-09 13:50:32 --> func getEventDetail_JWT : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiMjQ4OGQxNjg3ZmMxNzQ0OGNlNzcwZGE4NDk5NGQ4YjJcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDEzOjQ3OjA2XCJ9Ig.j7ulI0uuxEusqSJCczkL26Ctchf37PIohNdWU58dfbw"}
+INFO - 2024-07-09 13:50:32 --> ==================================================================================
+INFO - 2024-07-09 13:50:32 --> func getEventDetail_JWT : incoming request POST ->[]
+INFO - 2024-07-09 13:50:32 --> ==================================================================================
+INFO - 2024-07-09 13:50:32 --> func getEventDetail_JWT : JWT payload ->{"value_data":"user001","validate_key":"2488d1687fc17448ce770da84994d8b2","ctime":"2024-07-09 13:47:06"}
+INFO - 2024-07-09 13:50:32 --> ==================================================================================
+INFO - 2024-07-09 13:50:32 --> func getEventDetail_JWT : response -> {"code":"101","status":"success","more_data":[{"user_id":"101028743","user_name":"[WoW] \u0e21\u0e2d\u0e19\u0e40\u0e15\u0e2d\u0e23\u0e4c","user_logo":"https:\/\/image.takeme.la\/20231019\/2023101903325788e27d1bfa9e8c1da2a311583e744ddcae.jpg","count_gift":"1505"},{"user_id":"101007706","user_name":"\ud83c\udd60\ud835\ude63\ud835\ude68\u4e97\ud83c\udf38 \u1d37\u2071\u1d4f\u1d4f\u02b8 \ud83c\udf38","user_logo":"https:\/\/image.takeme.la\/20240627\/2024062703071234e489010d4e2bff4b950f0f6ad08921f8.png","count_gift":"100"},{"user_id":"100800005","user_name":"[\u029c\u1d0f\u1d18\u1d07]Snook\u2660\ufe0f","user_logo":"https:\/\/image.takeme.la\/20240607\/2024060711294927736d375476247d419dffa22a9a2b8f66.png","count_gift":"7"},{"user_id":"101236767","user_name":"Misa~Anna\\'s","user_logo":"https:\/\/image.takeme.la\/20240703\/20240703104453656d7c5c82677a721dd7dbaeb114f5eb56.png","count_gift":"6"},{"user_id":"100530041","user_name":"\u2661 ONE \ud83e\udebd\u0e21\u0e32\u0e15\u0e32 \u25e1\u0308 \u1d25  \u30b7","user_logo":"https:\/\/image.takeme.la\/20240621\/2024062103235127d3ac93be1eb40aaa9418b6408083c65b.png","count_gift":"3"},{"user_id":"101236784","user_name":"Yaya- naughty girl \ud83e\udd75","user_logo":"https:\/\/image.takeme.la\/20240630\/2024063001122154f2c383d5db64796fa198a79d7dbf0c34.png","count_gift":"2"},{"user_id":"100873709","user_name":"LAOS\ud83c\udf66rinradaice\ud83c\udf66\ud83e\udd84","user_logo":"https:\/\/image.takeme.la\/20240608\/2024060801301638f9bcfc7c61388a4a724b69565fcdce54.jpg","count_gift":"2"},{"user_id":"100964169","user_name":"\ud83c\udd60\ud835\ude63\ud835\ude68\u4e97\ua9c1\u0158\u00d8\u0160\u00cb\ua9c2","user_logo":"https:\/\/image.takeme.la\/20240503\/2024050309122049baaa948f954444e8a627a5f517f30156.jpg","count_gift":"2"},{"user_id":"101234046","user_name":"JUST \ud83c\udf36\ufe0f - \u0e2d\u0e1b\u0e41\u0e2d\u0e1b\u0e40\u0e1b\u0e34\u0e25","user_logo":"https:\/\/image.takeme.la\/20240625\/2024062506340538c283268b0441b8962c1de9c33f4af72b.png","count_gift":"1"},{"user_id":"101236447","user_name":"(ONE INTER) An Khanh","user_logo":"https:\/\/image.takeme.la\/20240623\/202406230126359867b70856cf107f866b51995abb035da0.png","count_gift":"1"},{"user_id":"101233060","user_name":"[Coolz\ud83d\udca6]\u2022\u0e1c\u0e34\u0e07\u0e1c\u0e34\u0e07","user_logo":"https:\/\/image.takeme.la\/20240529\/2024052910291491f2a3c9a272cbf4b711fca2c8509949c9.png","count_gift":"1"},{"user_id":"101236271","user_name":"(YAYA) Alone","user_logo":"https:\/\/image.takeme.la\/20240703\/20240703054634246e84ec3de64ad64cb5c8d65f97eb8aaa.png","count_gift":"1"},{"user_id":"101231696","user_name":"(ONE) gamgam","user_logo":"https:\/\/image.takeme.la\/20240517\/2024051701050551cbec1a239d6dbf7930beccc455704377.png","count_gift":"1"},{"user_id":"100592571","user_name":"[90\u24e2]\ud83c\udf51\ud83d\udcab\u0e2d\u0e34\u0e07\u0e2d\u0e34\u0e07\ud83d\udcab\ud83c\udf51","user_logo":"https:\/\/image.takeme.la\/20240623\/2024062307562070e3109a900bfbaec8467f049abcf247ef.jpg","count_gift":"1"},{"user_id":"101188129","user_name":"LAOS\ud83e\udd0d\u0e21\u0e34\u0e14\u0e49\u0e32\ud83e\udd8a\ud83c\udf39","user_logo":"https:\/\/image.takeme.la\/20240610\/202406100907373001b186f3c2b345930daece855943cd00.jpg","count_gift":"1"},{"user_id":"101234543","user_name":"Just \ud83c\udf36\ufe0f-Oil-","user_logo":"https:\/\/image.takeme.la\/20240617\/20240617070253377aedda8ec780e865d13aef5b44f5f572.png","count_gift":"1"},{"user_id":"100602558","user_name":"\u0e27\u0e48\u0e32\u0e07\ud83d\udcde\u0e07\u0e31\u0e1a","user_logo":"https:\/\/image.takeme.la\/20240413\/20240413123131834b406c9f50fabb2f153cbcc9dd9e37b9.jpg","count_gift":"1"},{"user_id":"101234178","user_name":"JUST\ud83c\udf36\ufe0f-\u0e1e\u0e23\u0e32\u0e27\u0e43\u0e2a","user_logo":"https:\/\/image.takeme.la\/20240701\/20240701090340288dc487985f21e9441658ffe59773d71d.png","count_gift":"1"},{"user_id":"101236237","user_name":"[YAYA] \ud83d\udc51","user_logo":"https:\/\/image.takeme.la\/20240629\/20240629011100794b766d00e17dd97f3bed2f35ff390952.png","count_gift":"1"}],"group":{"th-lang":"\u0e23\u0e2b\u0e31\u0e2a\u0e23\u0e49\u0e2d\u0e19 69","en-lang":"HOT CODE 69","start_date":"2024-07-03 14:00:00","end_date":"2024-07-04 23:59:59","event_id":"1"}}
+INFO - 2024-07-09 13:50:32 --> ==================================================================================
+INFO - 2024-07-09 08:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 08:01:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 15:01:31 --> ==================================================================================
+INFO - 2024-07-09 15:01:31 --> Start Time : 	2024-07-09 15:01:31
+INFO - 2024-07-09 15:01:31 --> func getEventDetail_JWT : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiMjQ4OGQxNjg3ZmMxNzQ0OGNlNzcwZGE4NDk5NGQ4YjJcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDEzOjQ3OjA2XCJ9Ig.j7ulI0uuxEusqSJCczkL26Ctchf37PIohNdWU58dfbw"}
+INFO - 2024-07-09 15:01:31 --> ==================================================================================
+INFO - 2024-07-09 15:01:31 --> func getEventDetail_JWT : incoming request POST ->[]
+INFO - 2024-07-09 15:01:31 --> ==================================================================================
+INFO - 2024-07-09 15:01:31 --> func getEventDetail_JWT : JWT payload ->{"value_data":"user001","validate_key":"2488d1687fc17448ce770da84994d8b2","ctime":"2024-07-09 13:47:06"}
+INFO - 2024-07-09 15:01:31 --> ==================================================================================
+INFO - 2024-07-09 15:01:31 --> func getEventDetail_JWT : error -> token expired !
+INFO - 2024-07-09 15:01:31 --> ==================================================================================
+CRITICAL - 2024-07-09 15:05:10 --> Error: Class "App\Libraries\UnexpectedValueException" not found
+in APPPATH\Libraries\Jwt.php on line 36.
+ 1 APPPATH\Controllers\Event_Rank.php(450): App\Libraries\JWT::decode('', 'sdgsgsbs#@fsfsdf%')
+ 2 APPPATH\Controllers\Event_Rank.php(331): App\Controllers\Event_Rank->test_decode_jwt('')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->getEventDetail_JWT()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-09 15:05:10 --> Error: Class "App\Libraries\UnexpectedValueException" not found
+in APPPATH\Libraries\Jwt.php on line 36.
+ 1 APPPATH\Controllers\Event_Rank.php(450): App\Libraries\JWT::decode('', 'sdgsgsbs#@fsfsdf%')
+ 2 APPPATH\Controllers\Event_Rank.php(331): App\Controllers\Event_Rank->test_decode_jwt('')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->getEventDetail_JWT()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-09 08:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 08:06:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+CRITICAL - 2024-07-09 15:08:03 --> Error: Class "App\Libraries\UnexpectedValueException" not found
+in APPPATH\Libraries\Jwt.php on line 36.
+ 1 APPPATH\Controllers\Event_Rank.php(450): App\Libraries\JWT::decode('', 'sdgsgsbs#@fsfsdf%')
+ 2 APPPATH\Controllers\Event_Rank.php(331): App\Controllers\Event_Rank->test_decode_jwt('')
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->getEventDetail_JWT()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-09 15:11:40 --> ErrorException: Attempt to read property "value_data" on null
+in APPPATH\Controllers\Event_Rank.php on line 333.
+ 1 APPPATH\Controllers\Event_Rank.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "value_data" on null', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Event_Rank.php', 333)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->getEventDetail_JWT()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-09 15:11:43 --> ErrorException: Attempt to read property "value_data" on null
+in APPPATH\Controllers\Event_Rank.php on line 333.
+ 1 APPPATH\Controllers\Event_Rank.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "value_data" on null', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Event_Rank.php', 333)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->getEventDetail_JWT()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-09 08:14:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 08:14:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 08:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 08:14:55 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 15:14:55 --> ==================================================================================
+INFO - 2024-07-09 15:14:55 --> Start Time : 	2024-07-09 15:14:55
+INFO - 2024-07-09 15:14:55 --> func getEventDetail_JWT : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiOTg1ZjhhNmY2ZWIxZGNlZTY2MDkyMmNkMWI5Mzk2OTJcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDE1OjE0OjQ1XCJ9Ig.iOqREsmmD5JSgLwLfA4_PvnS9ecPyYasT6f18EI34p4"}
+INFO - 2024-07-09 15:14:55 --> ==================================================================================
+INFO - 2024-07-09 15:14:55 --> func getEventDetail_JWT : incoming request POST ->[]
+INFO - 2024-07-09 15:14:55 --> ==================================================================================
+INFO - 2024-07-09 15:14:55 --> func getEventDetail_JWT : JWT payload ->null
+INFO - 2024-07-09 15:14:55 --> ==================================================================================
+CRITICAL - 2024-07-09 15:14:55 --> ErrorException: Attempt to read property "value_data" on null
+in APPPATH\Controllers\Event_Rank.php on line 333.
+ 1 APPPATH\Controllers\Event_Rank.php(333): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "value_data" on null', 'C:\\xampp\\htdocs\\ci\\app\\Controllers\\Event_Rank.php', 333)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Event_Rank->getEventDetail_JWT()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event_Rank))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(84): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-09 08:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 08:16:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 15:16:03 --> ==================================================================================
+INFO - 2024-07-09 15:16:03 --> Start Time : 	2024-07-09 15:16:03
+INFO - 2024-07-09 15:16:03 --> func getEventDetail_JWT : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiOTg1ZjhhNmY2ZWIxZGNlZTY2MDkyMmNkMWI5Mzk2OTJcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDE1OjE0OjQ1XCJ9Ig.iOqREsmmD5JSgLwLfA4_PvnS9ecPyYasT6f18EI34p4"}
+INFO - 2024-07-09 15:16:03 --> ==================================================================================
+INFO - 2024-07-09 15:16:03 --> func getEventDetail_JWT : incoming request POST ->[]
+INFO - 2024-07-09 15:16:03 --> ==================================================================================
+INFO - 2024-07-09 08:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 08:16:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 15:16:28 --> ==================================================================================
+INFO - 2024-07-09 15:16:28 --> Start Time : 	2024-07-09 15:16:28
+INFO - 2024-07-09 15:16:28 --> func getEventDetail_JWT : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiOTg1ZjhhNmY2ZWIxZGNlZTY2MDkyMmNkMWI5Mzk2OTJcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDE1OjE0OjQ1XCJ9Ig.iOqREsmmD5JSgLwLfA4_PvnS9ecPyYasT6f18EI34p4"}
+INFO - 2024-07-09 15:16:28 --> ==================================================================================
+INFO - 2024-07-09 15:16:28 --> func getEventDetail_JWT : incoming request POST ->[]
+INFO - 2024-07-09 15:16:28 --> ==================================================================================
+INFO - 2024-07-09 08:16:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 08:16:45 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 15:16:45 --> ==================================================================================
+INFO - 2024-07-09 15:16:45 --> Start Time : 	2024-07-09 15:16:45
+INFO - 2024-07-09 15:16:45 --> func getEventDetail_JWT : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiOTg1ZjhhNmY2ZWIxZGNlZTY2MDkyMmNkMWI5Mzk2OTJcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDE1OjE0OjQ1XCJ9Ig.iOqREsmmD5JSgLwLfA4_PvnS9ecPyYasT6f18EI34p4"}
+INFO - 2024-07-09 15:16:45 --> ==================================================================================
+INFO - 2024-07-09 15:16:45 --> func getEventDetail_JWT : incoming request POST ->[]
+INFO - 2024-07-09 15:16:45 --> ==================================================================================
+INFO - 2024-07-09 08:18:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 08:18:49 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 15:18:49 --> ==================================================================================
+INFO - 2024-07-09 15:18:49 --> Start Time : 	2024-07-09 15:18:49
+INFO - 2024-07-09 15:18:49 --> func getEventDetail_JWT : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiOTg1ZjhhNmY2ZWIxZGNlZTY2MDkyMmNkMWI5Mzk2OTJcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDE1OjE0OjQ1XCJ9Ig.iOqREsmmD5JSgLwLfA4_PvnS9ecPyYasT6f18EI34p4"}
+INFO - 2024-07-09 15:18:49 --> ==================================================================================
+INFO - 2024-07-09 15:18:49 --> func getEventDetail_JWT : incoming request POST ->[]
+INFO - 2024-07-09 15:18:49 --> ==================================================================================
+INFO - 2024-07-09 15:18:49 --> func getEventDetail_JWT : error -> invalid token key!
+INFO - 2024-07-09 15:18:49 --> ==================================================================================
+INFO - 2024-07-09 08:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 08:20:18 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 15:20:18 --> ==================================================================================
+INFO - 2024-07-09 15:20:18 --> Start Time : 	2024-07-09 15:20:18
+INFO - 2024-07-09 15:20:18 --> func getEventDetail_JWT : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiOTg1ZjhhNmY2ZWIxZGNlZTY2MDkyMmNkMWI5Mzk2OTJcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDE1OjE0OjQ1XCJ9Ig.iOqREsmmD5JSgLwLfA4_PvnS9ecPyYasT6f18EI34p4"}
+INFO - 2024-07-09 15:20:18 --> ==================================================================================
+INFO - 2024-07-09 15:20:18 --> func getEventDetail_JWT : incoming request POST ->[]
+INFO - 2024-07-09 15:20:18 --> ==================================================================================
+INFO - 2024-07-09 08:21:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 08:21:28 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 15:21:28 --> ==================================================================================
+INFO - 2024-07-09 15:21:28 --> Start Time : 	2024-07-09 15:21:28
+INFO - 2024-07-09 15:21:28 --> func getEventDetail_JWT : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiOTg1ZjhhNmY2ZWIxZGNlZTY2MDkyMmNkMWI5Mzk2OTJcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDE1OjE0OjQ1XCJ9Ig.iOqREsmmD5JSgLwLfA4_PvnS9ecPyYasT6f18EI34p4"}
+INFO - 2024-07-09 15:21:28 --> ==================================================================================
+INFO - 2024-07-09 15:21:28 --> func getEventDetail_JWT : incoming request POST ->[]
+INFO - 2024-07-09 15:21:28 --> ==================================================================================
+INFO - 2024-07-09 08:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-09 08:22:09 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+INFO - 2024-07-09 15:22:09 --> ==================================================================================
+INFO - 2024-07-09 15:22:09 --> Start Time : 	2024-07-09 15:22:09
+INFO - 2024-07-09 15:22:09 --> func getEventDetail_JWT : incoming request GET ->{"token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.IntcInZhbHVlX2RhdGFcIjpcInVzZXIwMDFcIixcInZhbGlkYXRlX2tleVwiOlwiOTg1ZjhhNmY2ZWIxZGNlZTY2MDkyMmNkMWI5Mzk2OTJcIixcImN0aW1lXCI6XCIyMDI0LTA3LTA5IDE1OjE0OjQ1XCJ9Ig.iOqREsmmD5JSgLwLfA4_PvnS9ecPyYasT6f18EI34p4"}
+INFO - 2024-07-09 15:22:09 --> ==================================================================================
+INFO - 2024-07-09 15:22:09 --> func getEventDetail_JWT : incoming request POST ->[]
+INFO - 2024-07-09 15:22:09 --> ==================================================================================
+INFO - 2024-07-09 15:22:09 --> func getEventDetail_JWT : JWT payload ->{"value_data":"user001","validate_key":"985f8a6f6eb1dcee660922cd1b939692","ctime":"2024-07-09 15:14:45"}
+INFO - 2024-07-09 15:22:09 --> ==================================================================================
+INFO - 2024-07-09 15:22:09 --> func getEventDetail_JWT : error -> token expired !
+INFO - 2024-07-09 15:22:09 --> ==================================================================================
